@@ -1,0 +1,202 @@
+[
+    {
+        "name": "安装与说明",
+        "groups": [
+            {
+                "list": [
+                    {
+                        "path": "/install",
+                        "title": "安装"
+                    },
+
+                    {
+                        "path": "/arcgisUrl",
+                        "title": "arcgis地址说明"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "底图",
+        "groups": [
+            {
+                "list": [
+                    {
+                        "path": "/baseMap",
+                        "title": "地图底图描述"
+                    },
+
+                    {
+                        "path": "/baseMap_bussiness_ctrl",
+                        "title": "加载描述文件"
+                    },
+                    {
+                        "path": "/htmlMap",
+                        "title": "用html 实现"
+                    },
+                    {
+                        "path": "/baseMapVue",
+                        "title": "用vue 实现一个baseMap.vue"
+                    },
+                    {
+                        "path": "/baseMapLoad",
+                        "title": "baseMap.vue使用"
+                    },
+                    {
+                        "path": "/baseMapManagerCtrl",
+                        "title": "地图基础类"
+                    },
+                    {
+                        "path": "/cityLinkAge",
+                        "title": "实现多个地图联动"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "图层管理",
+        "groups": [
+            {
+                "list": [
+                    {
+                        "path": "/layerStruct",
+                        "title": "arcgis的图层数据结构"
+                    },
+
+                    {
+                        "path": "/gismapStruct",
+                        "title": "gismap3的图层数据结构"
+                    },
+                    {
+                        "path": "/gisTools",
+                        "title": "自动化图层生成工具"
+                    },
+                    {
+                        "path": "/configLoadTool",
+                        "title": "图层数据结构的加载"
+                    },
+                    {
+                        "path": "/configManager",
+                        "title": "图层数据结构的管理"
+                    },
+                    {
+                        "path": "/baseMapManagerCtrl",
+                        "title": "地图基础类"
+                    },
+                    {
+                        "path": "/layerManager",
+                        "title": "图层layerManager"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "定位",
+        "groups": [
+            {
+                "list": [
+                    {
+                        "path": "/locateManager",
+                        "title": "地块定位"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "绘制图形与分析",
+        "groups": [
+            {
+                "list": [
+                    {
+                        "path": "/symbol",
+                        "title": "样式"
+                    },
+
+                    {
+                        "path": "/drawManager",
+                        "title": "绘制图形"
+                    },
+                    {
+                        "path": "/measure",
+                        "title": "测量面积，周长"
+                    },
+                    {
+                        "path": "/queryTool",
+                        "title": "geometry查询"
+                    },
+                    {
+                        "path": "/buff",
+                        "title": "缓冲分析"
+                    },
+                    {
+                        "path": "/print",
+                        "title": "地图出图"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "业务工具",
+        "groups": [
+            {
+                "list": [
+                    {
+                        "path": "/swip",
+                        "title": "卷帘"
+                    },
+
+                    {
+                        "path": "/mouseMove",
+                        "title": "点选查询"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "可视化",
+        "groups": [
+            {
+                "list": [
+                    {
+                        "path": "/unquieRender",
+                        "title": "分类图"
+                    },
+
+                    {
+                        "path": "/classRender",
+                        "title": "分值图"
+                    },
+                    {
+                        "path": "/heatMapRender",
+                        "title": "热点图"
+                    },
+                    {
+                        "path": "/clusterRender",
+                        "title": "聚合图"
+                    },
+                    {
+                        "path": "/blendRender",
+                        "title": "blend图"
+                    },
+                    {
+                        "path": "/renderManager",
+                        "title": "渲染图层管理者"
+                    }
+
+                ]
+            }
+        ]
+    }
+
+]

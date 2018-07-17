@@ -1,0 +1,66 @@
+.demo-icon .source > i {
+  color: #606266;
+  margin: 0 0.2rem;
+  font-size: 0.14rem;
+  vertical-align: middle;
+}
+
+.demo-icon .source > button {
+  margin: 0 20px;
+}
+
+.page-component .content > ul.icon-list {
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  border: solid 0.01rem #eaeefb;
+  border-radius: 0.04rem;
+}
+.icon-list li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.2rem;
+  color: #666;
+  font-size: 0.14rem;
+  transition: color .15s linear;
+
+  border-right: 0.01rem solid #eee;
+  border-bottom: 0.01rem solid #eee;
+  margin-right: -0.01rem;
+  margin-bottom: -0.01rem;
+
+  //@utils-vertical-center;
+
+  span {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',SimSun,sans-serif;
+    color: #99a9bf;
+  }
+
+  i {
+    display: block;
+    font-size: 0.32rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.15rem;
+    color: #606266;
+  }
+
+  .icon-name {
+    display: block;
+    padding: 0 0.03rem;
+    height: 1em;
+    margin-bottom: 0.15rem;
+    color: #606266;
+  }
+  .class-name{
+    width: 70%;
+    word-break: break-all;
+  }
+  &:hover {
+    color: rgb(92, 182, 255);
+  }
+}

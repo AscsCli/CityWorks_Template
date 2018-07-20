@@ -1,0 +1,32 @@
+{
+    "tabData":{
+        "2d":[
+            {
+                "name":"人房互查1",
+                "router":"'#/frame/people_room'"
+            },
+            {
+                "name":"人房互查2",
+                "router":"'#/frame/people_room'"
+            },
+            {
+                "name":"人房互查3",
+                "router":"'#/frame/people_room'"
+            }
+        ],
+        "3d":[
+            {
+                "name":"人房互查A",
+                "router":"'#/frame/people_room'"
+            },
+            {
+                "name":"人房互查B",
+                "router":"'#/frame/people_room'"
+            },
+            {
+                "name":"人房互查C",
+                "router":"'#/frame/people_room'"
+            }
+        ]
+    }
+}

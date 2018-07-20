@@ -1,0 +1,22 @@
+{
+    "analysisType":[
+        {
+            "name":"视域分析",
+            "type":1
+        },
+        {
+            "name":"通视分析",
+            "type":2
+        },
+        {
+            "name":"日照分析",
+            "type":3
+        }
+    ],
+    "layers":[
+        {
+            "name":"白模",
+            "layerName":"白模"
+        }
+    ]
+}

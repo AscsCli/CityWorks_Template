@@ -1,0 +1,40 @@
+.container{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.main-wrap{
+  display: flex;
+  flex-flow: row
+}
+.left-menu{
+  width: 3.06rem;
+  background-color: rebeccapurple;
+}
+.center{
+  flex: 1;
+  .map{
+    position: relative;
+  }
+}
+.center-con{
+  display: flex;
+  height: 100%;
+  flex-flow: column;
+}
+.right-wrap{
+  width: 2.88rem;
+  background-color: #111e42;
+}
+.mapcont{
+  flex: 1;
+  overflow: hidden;
+  background-color:#fff;
+  box-sizing: border-box
+}
+.actionList{
+  display: none
+}
+.mapcont .map .esriMapContainer{
+  position: absolute;
+}

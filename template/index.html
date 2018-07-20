@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <title>CityWorks™</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>rocket-ui</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="./static/config/env.js"></script>
+    <link rel="shortcut icon" href="/static/images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="bookmark" href="/static/images/favicon/favicon.ico" type="image/ico">
+    <script src="./static/js/echarts.source.js"></script>
+</head>
+<body>
+<script>
+    //禁止Ctrl + 和Ctrl + 鼠标滚轮缩放
+    var isFirefox = /Firefox/i.test(navigator.userAgent) ? true : false;
+    var unMouseBtn = function (e) {
+        var e = e || window.event;
+        if (e.wheelDelta && e.ctrlKey) {//IE/Opera/Chrome e.wheelDelta±120
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        } else if (e.detail && e.ctrlKey) {//Firefox e.detail±3
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        }
+    };
+    var mousewheelevt = isFirefox ? "DOMMouseScroll" : "mousewheel";
+    if (document.attachEvent) {//IE/Opera/Chrome
+        document.attachEvent("on" + mousewheelevt, unMouseBtn);
+    } else if (document.addEventListener) {//Firefox
+        document.addEventListener(mousewheelevt, unMouseBtn, false);
+    }
+    var unCtrl = function (e) {
+        var e = e || window.event;
+        var isFirefox = (/Firefox/i.test(navigator.userAgent)) ? true : false;
+        var code = isFirefox ? "109,107,173,61" : "109,107,189,187";
+        if (e.ctrlKey && code.indexOf(e.keyCode) != -1) {
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        }
+    };
+    document.onkeydown = unCtrl;
+
+</script>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+
+<!--<link rel="stylesheet" href="http://11.23.3.101/arcgis_js_api/library/3.16/3.16/esri/css/esri.css">-->
+
+
+<!--<link rel="stylesheet" href="http://cityworks.cn/arcgis_js_v320_api/arcgis_js_api/library/3.20/3.20/esri/css/esri.css">-->
+<!--<link rel="stylesheet" href="http://cityworks.cn/arcgis_js_v320_api/arcgis_js_api/library/3.20/3.20/esri/css/esri.css">-->
+<script src="./static/js/cm7.js"></script>
+<script src="./static/config/projectConfig.js"></script>
+<script src="./static/xml/configmanager/confing2D.js"></script>
+<script src="./static/config/windowMap.js"></script>
+<script src="static/config/2d/map2dConfig.js"></script>
+<script src="static/config/3d/map3dConfig.js"></script>
+<script>
+    console.log("version : ", projectConfig.version);
+</script>
+
+</body>
+
 </html>

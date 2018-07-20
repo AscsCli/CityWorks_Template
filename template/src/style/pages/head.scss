@@ -1,0 +1,161 @@
+.head-wrap {
+  height: 6.48148%;
+  border-bottom: 1px solid $headborder;
+}
+.container{
+  height: 100%;
+  width: 100%
+}
+.head-wrap .arrow-box .dropicomn{
+    transform: rotate(180deg);
+    display: inline-block;
+    font-size: .16rem;
+    line-height: inherit
+}
+.right-drop{
+    position: absolute;
+    right: 0;
+    .hubLogin{
+        margin-top: 0.02rem
+    }
+}
+.head-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background: $headbg;
+}
+.head{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background: $headbg;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.head-left{
+    width: 25rem;
+    min-width: 430px;
+    margin-left: .1rem;
+    display: flex;
+    align-items: center;
+    img{
+        width: 1rem;
+    }
+}
+.logo{
+    cursor: text;
+    img{
+      width: 1.8rem;
+    }
+}
+.citywork-logo{
+    width: .905rem;
+    height: .905rem;
+}
+.span-info{
+    display: inline-block;
+    min-width: 200px;
+    vertical-align: middle;
+    margin-left: 0.1rem;
+    font-size: .18rem;
+    color:$fontcolor;
+    font-weight: bold;
+}
+.search{
+    width: 3rem;
+    height: 65%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    padding:.1rem .45rem .1rem .15rem;
+    font-size: .14rem;
+    color:$fontcolor;
+    border-radius: 3px;
+    background-position: 3.6rem center;
+    border: 1px solid $fontcolor;
+    background: $headbg;
+}
+.icon-2d,.h-icon{
+    width: 28px;
+    height: 28px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    background-size: 112px 364px;
+}
+
+.icon-tools{
+    color: #93ccf5;
+    font-size: 1.1rem;
+    margin-left: 1.275rem;
+    cursor: pointer;
+}
+
+
+.progess{
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    vertical-align: top;
+    background: #2e3b5d;
+    border-radius: 2px;
+}
+.progess-line{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 0px;
+    height: 4px;
+    background: #00a0e9;
+    border-radius: 2px;
+}
+.progess-btn{
+    position: absolute;
+    left: 0px;
+    top:-8px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.tools{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-left:.6rem;
+}
+.data-show{
+    display: inline-block;
+    width: 128px;
+    height: 100%;
+    display: flex;
+    margin-right: 1%;
+    align-items: center;
+    img{
+      height: 60%;
+      vertical-align: middle
+    }
+}
+
+@media screen and (max-width:2000px){
+    .span-info{
+        font-size: 0.18rem;
+    }
+}
+
+.weather{
+    width:19rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.main-wrap {
+  width: 100%;
+  height: 93.51851%;
+  display: flex;
+  overflow: hidden;
+}

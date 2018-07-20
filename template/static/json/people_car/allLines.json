@@ -1,0 +1,526 @@
+
+{
+    "data": {
+        "content": [
+            {
+                "id": 311,
+                "name": "95路",
+                "direction": 0,
+                "beginStationName": "金山公交总站",
+                "endStationName": "福州高速西养护段",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 24
+            },
+            {
+                "id": 380,
+                "name": "142路",
+                "direction": 0,
+                "beginStationName": "南方建材市场",
+                "endStationName": "白湖亭",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 15
+            },
+            {
+                "id": 70,
+                "name": "508路",
+                "direction": 0,
+                "beginStationName": "公交鹤林",
+                "endStationName": "榕桦医院",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 22
+            },
+            {
+                "id": 72,
+                "name": "512路",
+                "direction": 0,
+                "beginStationName": "动物园",
+                "endStationName": "西园后山村",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 13
+            },
+            {
+                "id": 309,
+                "name": "48路",
+                "direction": 0,
+                "beginStationName": "公交大学城总站",
+                "endStationName": "闽江学院北门",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 27
+            },
+            {
+                "id": 95,
+                "name": "演示2",
+                "direction": 0,
+                "beginStationName": "造纸厂",
+                "endStationName": "金康集团",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 37
+            },
+            {
+                "id": 74,
+                "name": "118路",
+                "direction": 0,
+                "beginStationName": "金山公交总站",
+                "endStationName": "公交鹤林站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 38
+            },
+            {
+                "id": 78,
+                "name": "79路",
+                "direction": 0,
+                "beginStationName": "公交鹤林站",
+                "endStationName": "金山浦上公交枢纽",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 41
+            },
+            {
+                "id": 241,
+                "name": "86路",
+                "direction": 0,
+                "beginStationName": "园中村",
+                "endStationName": "大富山",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 32
+            },
+            {
+                "id": 76,
+                "name": "510路",
+                "direction": 0,
+                "beginStationName": "金牛山公园",
+                "endStationName": "上街村橄榄园下",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 18
+            },
+            {
+                "id": 378,
+                "name": "149路",
+                "direction": 0,
+                "beginStationName": "海峡汽车文化广场",
+                "endStationName": "台江广场",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 35
+            },
+            {
+                "id": 313,
+                "name": "150路",
+                "direction": 0,
+                "beginStationName": "祥坂公交站",
+                "endStationName": "闽江学院北门",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 30
+            },
+            {
+                "id": 141,
+                "name": "99路",
+                "direction": 0,
+                "beginStationName": "祥坂公交站",
+                "endStationName": "高速物流园",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 23
+            },
+            {
+                "id": 374,
+                "name": "537路",
+                "direction": 0,
+                "beginStationName": "顺华乌龙江大区",
+                "endStationName": "祥坂公交站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 21
+            },
+            {
+                "id": 48,
+                "name": "保利专线",
+                "direction": 0,
+                "beginStationName": "金山公交总站",
+                "endStationName": "保利西江林语",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 15
+            },
+            {
+                "id": 46,
+                "name": "闽都大庄园",
+                "direction": 0,
+                "beginStationName": "公交大学城总站",
+                "endStationName": "闽都大庄园",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 10
+            },
+            {
+                "id": 91,
+                "name": "91路",
+                "direction": 0,
+                "beginStationName": "动物园",
+                "endStationName": "金山金桔站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 34
+            },
+            {
+                "id": 40,
+                "name": "505路",
+                "direction": 0,
+                "beginStationName": "公交仁德站",
+                "endStationName": "西门",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 12
+            },
+            {
+                "id": 247,
+                "name": "175路",
+                "direction": 0,
+                "beginStationName": "公交海峡国际会展中心西站",
+                "endStationName": "金山浦上公交枢纽站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 24
+            },
+            {
+                "id": 295,
+                "name": "157支路",
+                "direction": 0,
+                "beginStationName": "白湖亭",
+                "endStationName": "公交大学城总站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 27
+            },
+            {
+                "id": 303,
+                "name": "43路",
+                "direction": 0,
+                "beginStationName": "大学城师大旗山校区东门",
+                "endStationName": "师大仓山校区",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 24
+            },
+            {
+                "id": 297,
+                "name": "176路",
+                "direction": 0,
+                "beginStationName": "火车南站",
+                "endStationName": "公交大学城总站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 39
+            },
+            {
+                "id": 325,
+                "name": "溪下部队专线",
+                "direction": 0,
+                "beginStationName": "金牛山公园",
+                "endStationName": "溪下部队",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 17
+            },
+            {
+                "id": 358,
+                "name": "23路测试",
+                "direction": 0,
+                "beginStationName": "世欧广场",
+                "endStationName": "左海公园西门",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 19
+            },
+            {
+                "id": 26,
+                "name": "513路",
+                "direction": 0,
+                "beginStationName": "省立医院南院",
+                "endStationName": "省立医院",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 16
+            },
+            {
+                "id": 327,
+                "name": "2公司公备线路",
+                "direction": 0,
+                "beginStationName": "福建对外经贸学院",
+                "endStationName": "白眉村",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 13
+            },
+            {
+                "id": 54,
+                "name": "三坊七巷环线",
+                "direction": 0,
+                "beginStationName": "西门",
+                "endStationName": "西门",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 11
+            },
+            {
+                "id": 28,
+                "name": "528路",
+                "direction": 0,
+                "beginStationName": "金牛山公园",
+                "endStationName": "侯官村",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 26
+            },
+            {
+                "id": 109,
+                "name": "11路",
+                "direction": 0,
+                "beginStationName": "上渡建材市场",
+                "endStationName": "公交鹤林站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 22
+            },
+            {
+                "id": 360,
+                "name": "23路测试1",
+                "direction": 0,
+                "beginStationName": "世欧广场",
+                "endStationName": "左海公园西门",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 19
+            },
+            {
+                "id": 32,
+                "name": "503路",
+                "direction": 0,
+                "beginStationName": "火车南站",
+                "endStationName": "上渡建材市场",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 22
+            },
+            {
+                "id": 50,
+                "name": "顺托专线",
+                "direction": 0,
+                "beginStationName": "顺华乌龙江大区",
+                "endStationName": "祥坂公交站",
+                "firstBus": "",
+                "lastOrder": "",
+                "stationCount": 21
+            },
+            {
+                "id": 338,
+                "name": "夜班2号线",
+                "direction": 0,
+                "beginStationName": "金山浦上公交枢纽站",
+                "endStationName": "火车站北广场",
+                "firstBus": "00:15",
+                "lastOrder": "23:45",
+                "stationCount": 32
+            },
+            {
+                "id": 191,
+                "name": "夜班1号线",
+                "direction": 0,
+                "beginStationName": "白湖亭",
+                "endStationName": "软件园（大门）",
+                "firstBus": "00:15",
+                "lastOrder": "23:45",
+                "stationCount": 28
+            },
+            {
+                "id": 131,
+                "name": "2路",
+                "direction": 0,
+                "beginStationName": "东部办公区",
+                "endStationName": "火车站北广场",
+                "firstBus": "00:20",
+                "lastOrder": "23:56",
+                "stationCount": 29
+            },
+            {
+                "id": 115,
+                "name": "77路",
+                "direction": 0,
+                "beginStationName": "仓山科技园（浦下村委会）",
+                "endStationName": "福建行政学院",
+                "firstBus": "04:40",
+                "lastOrder": "22:30",
+                "stationCount": 35
+            },
+            {
+                "id": 203,
+                "name": "1路",
+                "direction": 0,
+                "beginStationName": "白湖亭",
+                "endStationName": "西门",
+                "firstBus": "05:00",
+                "lastOrder": "21:40",
+                "stationCount": 23
+            },
+            {
+                "id": 117,
+                "name": "20路",
+                "direction": 0,
+                "beginStationName": "福建警察学院",
+                "endStationName": "火车站北广场",
+                "firstBus": "05:00",
+                "lastOrder": "23:40",
+                "stationCount": 28
+            },
+            {
+                "id": 64,
+                "name": "51路",
+                "direction": 0,
+                "beginStationName": "金融街万达广场",
+                "endStationName": "火车站北广场",
+                "firstBus": "05:00",
+                "lastOrder": "23:59",
+                "stationCount": 23
+            },
+            {
+                "id": 281,
+                "name": "82路",
+                "direction": 0,
+                "beginStationName": "公交苍霞站",
+                "endStationName": "江口龙好路",
+                "firstBus": "05:20",
+                "lastOrder": "20:00",
+                "stationCount": 31
+            },
+            {
+                "id": 175,
+                "name": "28路",
+                "direction": 0,
+                "beginStationName": "白湖亭",
+                "endStationName": "康城小区",
+                "firstBus": "05:30",
+                "lastOrder": "21:00",
+                "stationCount": 24
+            },
+            {
+                "id": 205,
+                "name": "17路",
+                "direction": 0,
+                "beginStationName": "白湖亭",
+                "endStationName": "埔党路口",
+                "firstBus": "05:30",
+                "lastOrder": "22:30",
+                "stationCount": 28
+            },
+            {
+                "id": 133,
+                "name": "10路",
+                "direction": 0,
+                "beginStationName": "公交鳌峰洲",
+                "endStationName": "火车站北广场",
+                "firstBus": "05:30",
+                "lastOrder": "22:14",
+                "stationCount": 32
+            },
+            {
+                "id": 4,
+                "name": "33路",
+                "direction": 0,
+                "beginStationName": "公交仁德站",
+                "endStationName": "白沙",
+                "firstBus": "05:30",
+                "lastOrder": "19:55",
+                "stationCount": 55
+            },
+            {
+                "id": 177,
+                "name": "K2路",
+                "direction": 0,
+                "beginStationName": "火车南站",
+                "endStationName": "火车站北广场",
+                "firstBus": "05:30",
+                "lastOrder": "23:05",
+                "stationCount": 25
+            },
+            {
+                "id": 16,
+                "name": "40路",
+                "direction": 0,
+                "beginStationName": "东方学院",
+                "endStationName": "公交仁德站",
+                "firstBus": "05:30",
+                "lastOrder": "17:30",
+                "stationCount": 33
+            },
+            {
+                "id": 201,
+                "name": "113路",
+                "direction": 0,
+                "beginStationName": "白湖亭",
+                "endStationName": "洪山梁厝路",
+                "firstBus": "05:30",
+                "lastOrder": "21:30",
+                "stationCount": 27
+            },
+            {
+                "id": 6,
+                "name": "38路",
+                "direction": 0,
+                "beginStationName": "公交仁德站",
+                "endStationName": "甘蔗公交停车场",
+                "firstBus": "05:45",
+                "lastOrder": "21:15",
+                "stationCount": 44
+            },
+            {
+                "id": 135,
+                "name": "5路",
+                "direction": 0,
+                "beginStationName": "金山公交总站",
+                "endStationName": "火车站北广场",
+                "firstBus": "05:55",
+                "lastOrder": "21:30",
+                "stationCount": 34
+            },
+            {
+                "id": 99,
+                "name": "133路",
+                "direction": 0,
+                "beginStationName": "金山公交总站",
+                "endStationName": "火车站北广场",
+                "firstBus": "06:00",
+                "lastOrder": "22:00",
+                "stationCount": 29
+            }
+        ],
+        "last": false,
+        "totalPages": 4,
+        "totalElements": 195,
+        "size": 50,
+        "number": 0,
+        "sort": [
+            {
+                "direction": "ASC",
+                "property": "firstBus",
+                "ignoreCase": false,
+                "nullHandling": "NATIVE",
+                "ascending": true,
+                "descending": false
+            }
+        ],
+        "first": true,
+        "numberOfElements": 50
+    },
+    "code": 200,
+    "msg": null
+}

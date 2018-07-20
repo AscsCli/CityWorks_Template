@@ -1,0 +1,287 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": [
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "三相交流电源开关状态",
+      "sensor_id": "165002000015",
+      "floor": "1F",
+      "threshold": [
+        "1",
+        "1",
+        "1"
+      ],
+      "status": [
+        "0",
+        "0",
+        "0"
+      ],
+      "waring": 0,
+      "value": "1,1,1",
+      "updatetime": "2017-06-08 17:13:52",
+      "switch_arr": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "水位",
+      "sensor_id": "165002000011",
+      "floor": "1F",
+      "threshold": [
+        "2.3",
+        "1.5"
+      ],
+      "status": [
+        "0"
+      ],
+      "waring": 0,
+      "value": "2.04",
+      "updatetime": "2017-06-08 17:04:05",
+      "water_level": "2.04"
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "水压",
+      "sensor_id": "165002000009",
+      "floor": "1F",
+      "threshold": [
+        "1.2",
+        "0.4"
+      ],
+      "status": [
+        "0"
+      ],
+      "waring": 0,
+      "value": "0.38",
+      "updatetime": "2017-06-08 17:14:11",
+      "water_pressure": "0.38"
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "三相交流电源开关状态",
+      "sensor_id": "165002000018",
+      "floor": "1F",
+      "threshold": [
+        "1",
+        "1",
+        "1"
+      ],
+      "status": [
+        "0",
+        "0",
+        "0"
+      ],
+      "waring": 0,
+      "value": "1,1,1",
+      "updatetime": "2017-06-08 16:41:24",
+      "switch_arr": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "温度",
+      "sensor_id": "165002000001",
+      "floor": "1F",
+      "threshold": [
+        "40",
+        "10",
+        "65",
+        "50"
+      ],
+      "status": [
+        "0"
+      ],
+      "waring": 0,
+      "value": "30.93",
+      "updatetime": "2017-06-08 17:09:28",
+      "temperature": "30.93"
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "三相交流电流",
+      "sensor_id": "165002000013",
+      "floor": "1F",
+      "threshold": [
+        "60",
+        "0",
+        "60",
+        "0",
+        "60",
+        "0"
+      ],
+      "status": [
+        "0",
+        "0",
+        "0"
+      ],
+      "waring": 0,
+      "value": "0.00,0.00,0.00,",
+      "updatetime": "2017-06-08 17:07:49",
+      "ammeter_arr": [
+        "0.00",
+        "0.00",
+        "0.00"
+      ]
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "剩余电流",
+      "sensor_id": "165002000014",
+      "floor": "1F",
+      "threshold": [
+        "10",
+        "0"
+      ],
+      "status": [
+        "0"
+      ],
+      "waring": 0,
+      "value": "0.00",
+      "updatetime": "2017-06-08 17:03:43",
+      "ammeter": "0.00"
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "水压",
+      "sensor_id": "165002000005",
+      "floor": "1F",
+      "threshold": [
+        "1.2",
+        "0.4"
+      ],
+      "status": null,
+      "waring": null,
+      "value": null,
+      "updatetime": null
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "温湿度",
+      "sensor_id": "165002000003",
+      "floor": "1F",
+      "threshold": [
+        "40",
+        "10",
+        "80",
+        "20"
+      ],
+      "status": [
+        "0",
+        "0"
+      ],
+      "waring": 0,
+      "value": "29.84,78.69",
+      "updatetime": "2017-06-08 17:12:23",
+      "temperature": "29.84",
+      "humidity": "78.69"
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "三相交流电源开关状态",
+      "sensor_id": "165002000016",
+      "floor": "1F",
+      "threshold": [
+        "1",
+        "1",
+        "1"
+      ],
+      "status": [
+        "0",
+        "0",
+        "0"
+      ],
+      "waring": 0,
+      "value": "1,1,1",
+      "updatetime": "2017-06-08 17:03:59",
+      "switch_arr": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "三相交流电源开关状态",
+      "sensor_id": "165002000017",
+      "floor": "1F",
+      "threshold": [
+        "1",
+        "1",
+        "1"
+      ],
+      "status": [
+        "0",
+        "0",
+        "0"
+      ],
+      "waring": 0,
+      "value": "1,1,1",
+      "updatetime": "2017-06-08 17:01:35",
+      "switch_arr": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "温度",
+      "sensor_id": "165002000002",
+      "floor": "1F",
+      "threshold": [
+        "40",
+        "10",
+        "65",
+        "50"
+      ],
+      "status": [
+        "0"
+      ],
+      "waring": 0,
+      "value": "32.37",
+      "updatetime": "2017-06-08 17:14:29",
+      "temperature": "32.37"
+    },
+    {
+      "build_code": "4403070090151300019",
+      "build_name": "竹坑综合市场",
+      "type": "温湿度",
+      "sensor_id": "165002000004",
+      "floor": "1F",
+      "threshold": [
+        "40",
+        "10",
+        "80",
+        "20"
+      ],
+      "status": [
+        "0",
+        "0"
+      ],
+      "waring": 0,
+      "value": "31.12,79.82",
+      "updatetime": "2017-06-08 16:13:24",
+      "temperature": "31.12",
+      "humidity": "79.82"
+    }
+  ]
+}

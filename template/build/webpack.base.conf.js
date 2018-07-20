@@ -3,9 +3,8 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
-const striptags = require('./strip-tags')
-const vueMarkdown = require('./markDownOptions');
-function resolve(dir) {
+
+function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
@@ -23,7 +22,7 @@ const createLintingRule = () => ({
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: './examples/src/entry.js'
+    app: './src/main.js'
   },
   output: {
     path: config.build.assetsRoot,
@@ -36,11 +35,7 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('examples'),
-      'lib': resolve('src'),
-      'Packages':resolve('packages'),
-      'examples':resolve('examples'),
-      'gismap3':resolve('src/index.js')
+      '@': resolve('src'),
     }
   },
   module: {
@@ -54,7 +49,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('packages'),resolve('examples'),resolve('test'), resolve('node_modules/webpack-dev-server/client')]
+        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -79,11 +74,6 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
-      },
-      {
-        test: /\.md$/,
-        loader: 'vue-markdown-loader',
-        options: vueMarkdown
       }
     ]
   },

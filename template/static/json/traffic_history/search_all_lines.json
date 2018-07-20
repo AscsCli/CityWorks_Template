@@ -1,0 +1,154 @@
+{
+    "data": [
+        {
+            "begin_station_name": "东岐",
+            "first_bus": "06:30",
+            "last_order": "20:20",
+            "end_station_name": "公交仁德站",
+            "name": "36路",
+            "station_count": 43,
+            "id": 55,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "金融街万达广场",
+            "first_bus": "05:00",
+            "last_order": "23:59",
+            "end_station_name": "火车站北广场",
+            "name": "51路",
+            "station_count": 24,
+            "id": 63,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "海峡奥体公交枢纽站",
+            "first_bus": "06:00",
+            "last_order": "23:00",
+            "end_station_name": "公交鹤林站",
+            "name": "11路",
+            "station_count": 31,
+            "id": 108,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "福建警察学院",
+            "first_bus": "05:00",
+            "last_order": "23:20",
+            "end_station_name": "火车站北广场",
+            "name": "20路",
+            "station_count": 28,
+            "id": 116,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "鳌峰大桥",
+            "first_bus": "06:00",
+            "last_order": "21:30",
+            "end_station_name": "沙堤",
+            "name": "39路",
+            "station_count": 41,
+            "id": 120,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "东部办公区",
+            "first_bus": "06:30",
+            "last_order": "22:36",
+            "end_station_name": "火车站北广场",
+            "name": "2路",
+            "station_count": 29,
+            "id": 130,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "鳌峰洲公交总站",
+            "first_bus": "05:30",
+            "last_order": "22:22",
+            "end_station_name": "火车站北广场",
+            "name": "10路",
+            "station_count": 33,
+            "id": 132,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "金山公交总站",
+            "first_bus": "05:55",
+            "last_order": "22:00",
+            "end_station_name": "火车站北广场",
+            "name": "5路",
+            "station_count": 35,
+            "id": 134,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "鼓山风景区",
+            "first_bus": "06:05",
+            "last_order": "20:30",
+            "end_station_name": "福大学生广场",
+            "name": "7路",
+            "station_count": 26,
+            "id": 152,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "公交苍霞站",
+            "first_bus": "06:00",
+            "last_order": "21:28",
+            "end_station_name": "埔党路口",
+            "name": "52路",
+            "station_count": 28,
+            "id": 166,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "白湖亭",
+            "first_bus": "05:00",
+            "last_order": "23:00",
+            "end_station_name": "西门",
+            "name": "1路",
+            "station_count": 23,
+            "id": 202,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "地铁葫芦阵",
+            "first_bus": "06:00",
+            "last_order": "21:30",
+            "end_station_name": "文山里（软件园）",
+            "name": "14路",
+            "station_count": 33,
+            "id": 232,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "马尾青州公交总站",
+            "first_bus": "06:05",
+            "last_order": "22:30",
+            "end_station_name": "祥坂公交站",
+            "name": "37路",
+            "station_count": 39,
+            "id": 254,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "白湖亭",
+            "first_bus": "06:00",
+            "last_order": "22:10",
+            "end_station_name": "软件园",
+            "name": "8路",
+            "station_count": 26,
+            "id": 347,
+            "direction": 0
+        },
+        {
+            "begin_station_name": "农林大学",
+            "first_bus": "06:00",
+            "last_order": "21:00",
+            "end_station_name": "火车站北广场",
+            "name": "22路",
+            "station_count": 26,
+            "id": 349,
+            "direction": 0
+        }
+    ]
+}

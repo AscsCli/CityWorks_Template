@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "air_day_id": 1,
+            "STATION_NAME": "五四北路",
+            "RELEASE_TIME": 1451635200000,
+            "AQI": 70,
+            "AQG": "二级",
+            "CREATE_DATE": 1451577600000,
+            "TX_DAY": null
+        },
+        {
+            "air_day_id": 2,
+            "STATION_NAME": "紫阳",
+            "RELEASE_TIME": 1451635200000,
+            "AQI": 75,
+            "AQG": "二级",
+            "CREATE_DATE": 1451577600000,
+            "TX_DAY": null
+        },
+        {
+            "air_day_id": 3,
+            "STATION_NAME": "师大",
+            "RELEASE_TIME": 1451635200000,
+            "AQI": 78,
+            "AQG": "二级",
+            "CREATE_DATE": 1451577600000,
+            "TX_DAY": null
+        },
+        {
+            "air_day_id": 4,
+            "STATION_NAME": "杨桥西路",
+            "RELEASE_TIME": 1451635200000,
+            "AQI": 102,
+            "AQG": "三级",
+            "CREATE_DATE": 1451577600000,
+            "TX_DAY": null
+        },
+        {
+            "air_day_id": 5,
+            "STATION_NAME": "快安",
+            "RELEASE_TIME": 1451635200000,
+            "AQI": 62,
+            "AQG": "二级",
+            "CREATE_DATE": 1451577600000,
+            "TX_DAY": null
+        },
+        {
+            "air_day_id": 6,
+            "STATION_NAME": "鼓山",
+            "RELEASE_TIME": 1451635200000,
+            "AQI": 70,
+            "AQG": "二级",
+            "CREATE_DATE": 1451577600000,
+            "TX_DAY": null
+        },
+        {
+            "air_day_id": 7,
+            "STATION_NAME": "鼓楼_软件园",
+            "RELEASE_TIME": 1451635200000,
+            "AQI": 57,
+            "AQG": "二级",
+            "CREATE_DATE": 1451577600000,
+            "TX_DAY": null
+        }
+    ]
+}

@@ -21,14 +21,12 @@
 	import headDom from '../head/head';
 	import leftMenu from '../leftmenu/leftmenu';
     import centerDom from '../center/center';
-    import centervideo from '../center/center_video';
     import { mapGetters } from 'vuex';
 	export default {
 		components:{
 			headDom,
 			leftMenu,
             centerDom,
-            centervideo
 		},
         computed:{
         }

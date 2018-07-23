@@ -59,9 +59,9 @@
           },
           {
             name: '测量工具',
-            router: '/home/measure_2D_3D',
+            router: '/home/measure2D',
             powercode: 'CELIANG'
-          },
+          }
         ]
   
       }
@@ -70,12 +70,16 @@
   
     },
     methods: {
-      changeTab() {
-  
+      changeTab(item) {
+        console.log(item);
+        this.$router.push(item.router)
       }
     },
     mounted() {
-  
+        window.$apis.buildingList().then(val => {
+          console.log(val.data.layerList);
+        })
+
     }
   }
 </script>

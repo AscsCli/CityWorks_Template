@@ -1,25 +1,33 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import frame from '../pages/frame/frame.vue';
+import measure2D from '../pages/rightrouter/celiangTools/measure2D.vue'
+import measure from '../pages/rightrouter/measure/measure2D';
 Vue.use(Router);
+
+
 
 const routes = [
     {
         path: '/',
         name: 'frame',
         component: frame,
-    }
-    // {
-    //     path:'/home',
-    //     name:'home',
-    //     component:frame,
-    //     children:[
-    //         {
-    //             path: 'main_building',
-    //             component: main_building
-    //         }
-    //     ]
-    // },
+    },
+    {
+        path:'/home',
+        name:'home',
+        component:frame,
+        children:[
+            {
+                path: 'measure2D',
+                component: measure2D
+            },
+            {
+              path: 'swipView',
+              component:measure
+            },
+        ]
+    },
 
 ];
 

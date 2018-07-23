@@ -1,5 +1,16 @@
 import axios from "axios";
 
+//占位符解析赋值函数
+function format(target, data = {}) {
+  if (!data || !typeof data === "object" || data instanceof Array) return target;
+  let paramKeys = Object.keys(data);
+  paramKeys.forEach(key => {
+    if (!target.includes(key)) return;
+    target = target.replace(new RegExp("{" + key + "}", "g"), data[key]);
+  });
+  return target;
+};
+
 export const ApiFactor = function (baseUrl, apiConfs) {
   let axiosInstance = axios.create({
     baseURL: baseUrl
@@ -32,13 +43,3 @@ export const ApiFactor = function (baseUrl, apiConfs) {
   return apis;
 };
 
-//占位符解析赋值函数
-function format(target, data = {}) {
-  if (!data || !typeof data === "object" || data instanceof Array) return target;
-  let paramKeys = Object.keys(data);
-  paramKeys.forEach(key => {
-    if (!target.includes(key)) return;
-    target = target.replace(new RegExp("{" + key + "}", "g"), data[key]);
-  });
-  return target;
-};

@@ -2,12 +2,12 @@ import Mock from "mockjs";
 import ruleList from "./mockData/ruleList";
 import tableList from "./mockData/tableList";
 import layerList from "./mockData/layerList";
+import buildingList from "./mockData/buildingList";
 import tableData from "./mockData/tableData";
 import validateResult from "./mockData/validateResult";
 
-const apis = ENV.apis;
-const apisOrcl = ENV.apisOrcl;
-const baseUrl = ENV.baseApiUrl;
+const apis = PROXY.apiList;
+const baseUrl = PROXY.baseUrl;
 
 function url2pathParam(docUrl, reqUrl) {
   let docUrlArr = docUrl.split("/");
@@ -34,7 +34,6 @@ function mockListen(api, callback) {
   let method = api.method;
   let urlRe = generateUrlRe(url);
   Mock.mock(urlRe, method, function (option) {
-    
     return callback(option);
   });
 }
@@ -42,17 +41,13 @@ function mockListen(api, callback) {
 Mock.setup({
   timeout: '200-600'
 });
-mockListen(apis.getTableList, function (option) {
-  let data = tableList.data;
+mockListen(apis.getBuildingList, function (option) {
+  let data = buildingList.data;
   return {content: data, code: 200};
 });
 
-mockListen(apis.getLayerList, function (option) {
-  let data = layerList.data;
-  return {content: data, code: 200};
-});
 
-mockListen(apis.getRuleList, function (option) {
+/*mockListen(apis.getRuleList, function (option) {
   let docUrl = baseUrl + apis.getRuleList.path;
   let reqUrl = option.url;
   let pathPram = url2pathParam(docUrl, reqUrl);
@@ -78,4 +73,4 @@ mockListen(apisOrcl.sqlExcuteOrcl, function (option) {
     }
   ];
   return res;
-});
+});*/

@@ -4,13 +4,13 @@
 			<div style="height: 15rem;text-align:center;">
 				<img v-bind:src="car" alt="人车位置">
 				<ul class="build_ul">
-					<li v-for="(item,index) in building">{{index+1}}:{{item}}</li>
+					<li v-for="(item,index) in building" :key="index">{{index+1}}:{{item}}</li>
 				</ul>
 			</div>
 		</section-part>	
 		<section-part :model="'Log日志'">
 			<div class="log-mess">
-				<p v-for="item in logs">{{item.ip+': '+item.txt}}</p>
+				<p v-for="item in logs" :key="item">{{item.ip+': '+item.txt}}</p>
 			</div>
 		</section-part>
 		<section-part :model="'二维地图'">

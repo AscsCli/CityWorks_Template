@@ -37,46 +37,6 @@ var LINE_URL = '';
 
 var located = "online";
 
-//区别线上环境和线下环境
-if(window.location.href.indexOf('localhost') >= 0){
-    // console.warn("正式部署时可以删除本段代码！");
-    located = 'fuzhou';
-}else{
-    console.warn("正式部署时可以删除本段代码！");
-}
-
-
-
-switch (located){
-    case "fuzhou":
-        // ENV_CM_SERVER = '10.10.120.3';//在公司用的端口
-        ENV_CM_SERVER = 'arcgis.cityworks.cn';//改成现有ip
-        ENV_ARCGIS_SERVER = 'http://arcgis.cityworks.cn';
-        ENV_CAR_SERVER = '11.23.3.6';
-        ENV_CAR_SERVER_PORT = '';
-        LINE_URL = "http://localhost:8082";
-        MODEL_URL = '/gateway';
-        break;
-    case "company":
-        ENV_CM_SERVER = '10.10.120.3';//在公司用的端口
-        ENV_ARCGIS_SERVER = 'cityworks.cn';
-        ENV_ARCGIS_MAP_SERVER = '10.10.120.2:6080';
-        break;
-    case "online":
-        ENV_CM_SERVER = 'arcgis.cityworks.cn';//改成现有ip
-        ENV_ARCGIS_SERVER = 'http://arcgis.cityworks.cn';
-        ENV_CAR_SERVER = '11.23.3.6';
-        ENV_CAR_SERVER_PORT = '';
-        MODEL_URL = '/gateway';
-        LINE_URL = 'http://fz.cityworks.cn/cityworks';
-        fileUrl = 'http://fz.cityworks.cn/cityworks';
-        break;
-}
-
-//行政区划
-// var QU_ON_SERVER_HTTP_URL = 'http://11.23.3.6/administrative-area/v1/fuzhou';
-var QU_ON_SERVER_HTTP_URL    = '/fuzhou';
-
 
 //线上hub页
 var LINE_HUB_URL = 'http://fz.cityworks.cn/portal/#/hub';

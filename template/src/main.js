@@ -10,12 +10,20 @@ import store from './store/index';
 import {resourcePlugin} from "@/plugin/resourcePlugin";
 import Rocket from '@cityworks/rocket-ui';
 import '@cityworks/rocket-ui/rocket-theme/index.css';
-import "./style/index.scss"
+import "./style/index.scss";
+
+import {ApiFactor} from "./api/api-factor";
 
 Vue.use(Rocket);
-Vue.config.productionTip = false;
-
 Vue.use(VueResource);
+
+Vue.config.productionTip = false;
+const baseUrl = PROXY.baseUrl;
+const apiConfs = PROXY.apiList;
+
+window.$apis = ApiFactor(baseUrl,apiConfs);
+
+
 //REM计算
 setREM.init();
 

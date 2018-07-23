@@ -2,10 +2,7 @@
   height: 6.48148%;
   border-bottom: 1px solid $headborder;
 }
-.container{
-  height: 100%;
-  width: 100%
-}
+
 .head-wrap .arrow-box .dropicomn{
     transform: rotate(180deg);
     display: inline-block;
@@ -19,6 +16,7 @@
         margin-top: 0.02rem
     }
 }
+
 .head-container {
   display: flex;
   flex-wrap: nowrap;

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<i v-for="item in icons" :title="item.title" :class="'icon-font icon-'+ item.class" @click="tap(item)"></i>
+		<i v-for="item in icons" :title="item.title" :class="'icon iconfont  icon-'+ item.class" @click="tap(item)"></i>
 	</div>
 </template>
 <script>
@@ -17,15 +17,13 @@
 	}
 </script>
 <style scoped>
-	@import './style.css';
-
-	.icon-font{
+	.iconfont{
 		font-size: .24rem;
 		color: #8ac0e8;
 		cursor: pointer;
 		margin-right: .2rem;
 	}
-	.icon-font:hover{
+	.iconfont:hover{
 		color: #00a0e9;
 	}
 </style>

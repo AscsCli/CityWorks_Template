@@ -147,7 +147,30 @@ module.exports = {
       when: 'isNotTest',
       type: 'confirm',
       message: 'Setup e2e tests with Nightwatch?',
-    }
+    },
+    autoInstall: {
+      when: 'isNotTest',
+      type: 'list',
+      message:
+        'Should we run `npm install` for you after the project has been created? (recommended)',
+      choices: [
+        {
+          name: 'Yes, use NPM',
+          value: 'npm',
+          short: 'npm',
+        },
+        {
+          name: 'Yes, use Yarn',
+          value: 'yarn',
+          short: 'yarn',
+        },
+        {
+          name: 'No, I will handle that myself',
+          value: false,
+          short: 'no',
+        },
+      ],
+    },
   },
   filters: {
     '.eslintrc.js': 'lint',

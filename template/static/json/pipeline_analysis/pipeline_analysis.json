@@ -1,0 +1,22 @@
+{
+    "analysisType": [
+        {
+            "name": "给水",
+            "urlLX": "http://11.23.2.101/arcgis/rest/services/waterDownStream/GPServer/%E7%A6%8F%E5%B7%9E%E6%B5%81%E5%90%91%E8%BF%BD%E8%B8%AA",
+            "urlSY": "http://11.23.2.101/arcgis/rest/services/waterUpStream/GPServer/%E7%A6%8F%E5%B7%9E%E6%BA%AF%E6%BA%90%E8%BF%BD%E8%B8%AA",
+            "layerName":"给水（线）"
+        },
+        {
+            "name": "雨水",
+            "urlLX": "http://11.23.2.101/arcgis/rest/services/rainDownStream/GPServer/%E7%A6%8F%E5%B7%9E%E6%B5%81%E5%90%91%E8%BF%BD%E8%B8%AA",
+            "urlSY": "http://11.23.2.101/arcgis/rest/services/rainUpStream/GPServer/%E7%A6%8F%E5%B7%9E%E6%BA%AF%E6%BA%90%E8%BF%BD%E8%B8%AA",
+            "layerName":"雨水（线）"
+        },
+        {
+            "name": "污水",
+            "urlLX": "http://11.23.2.101/arcgis/rest/services/sewageDownStream/GPServer/%E7%A6%8F%E5%B7%9E%E6%B5%81%E5%90%91%E8%BF%BD%E8%B8%AA",
+            "urlSY": "",
+            "layerName":"污水（线）"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "optionsRange":[
+        {
+            "name":"100米"
+        },
+        {
+            "name":"200米"
+        },
+        {
+            "name":"300米"
+        }
+    ],
+    "bufferLayers":[
+        {
+            "name":"白模"
+        }
+    ],
+    "imgSrc":"./static/images/disc.png"
+}

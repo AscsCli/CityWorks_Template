@@ -1,0 +1,241 @@
+{
+  "menu": {
+    "title": [
+      {
+        "class": "area",
+        "show": false,
+        "title": "行政区划",
+        "data": [
+          {
+            "tit": "POI",
+            "show": false,
+            "status": false,
+            "isLeaf": true
+          }, {
+            "tit": "地名库",
+            "show": false,
+            "status": false,
+            "isLeaf": true
+          }, {
+            "tit": "道路中心线",
+            "show": false,
+            "status": false,
+            "isLeaf": true
+          }, {
+            "tit": "水系中心线",
+            "show": false,
+            "status": false,
+            "isLeaf": true
+          }, {
+            "tit": "道路面",
+            "show": false,
+            "status": false,
+            "isLeaf": true
+          }, {
+            "tit": "建筑物",
+            "show": false,
+            "status": false,
+            "isLeaf": true
+          }, {
+            "tit": "水系面",
+            "show": false,
+            "status": false,
+            "isLeaf": true
+          }
+        ]
+      }, {
+        "class": "space",
+        "show": true,
+        "title": "空间信息",
+        "data": [
+          {
+            "tit": "基础数据",
+            "show": false,
+            "status": false,
+            "isLeaf": false,
+            "lists": [
+              {
+                "tit":"地面",
+                "show":true,
+                "isLeaf": true
+
+              },
+              {
+                "tit":"建筑物",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"地形",
+                "show":true,
+                "isLeaf": true
+              }
+            ]
+          }, {
+            "tit": "部件信息",
+            "show": false,
+            "status": false,
+            "isLeaf": false,
+            "lists": [
+
+              {
+                "tit":"红绿灯",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"白模",
+                "show":false,
+                "isLeaf": true
+              },
+              {
+                "tit":"燃气管线",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"燃气管点",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"电力管点",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"电力管线",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"消防管线",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"消防管点",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"水利管点",
+                "show":true,
+                "isLeaf": true
+              },
+              {
+                "tit":"水利管线",
+                "show":true,
+                "isLeaf": true
+              }
+            ]
+          }
+        ]
+      }, {
+        "class": "dynamic",
+        "show": false,
+        "title": "管线信息",
+        "data": [
+          {
+            "tit": "管线",
+            "show": false,
+            "status": false,
+            "show": false,
+            "isLeaf": false,
+            "lists": [
+              {
+                "tit": "综合管沟",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "温泉",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "污水",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "讯通",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "移动",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "石油",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "天然气",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "铁通",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "网通",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "交通信号",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "军用通讯",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "路灯",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "榕网",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "联通",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "雨水",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "不明管线",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "电力",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "电信",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "给水",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "交通信号",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "污水",
+                "isLeaf": true,
+                "show": false
+              }, {
+                "tit": "军用通讯",
+                "isLeaf": true,
+                "show": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1044 @@
+{
+    "data": [
+        {
+            "license": "闽A06680D",
+            "route_id": 326,
+            "device_id": "268439374",
+            "driver_tel": "19300006680",
+            "route_name": "11路",
+            "id": 268439868
+        },
+        {
+            "license": "闽A06250D",
+            "route_id": 326,
+            "device_id": "268439370",
+            "driver_tel": "19300006250",
+            "route_name": "11路",
+            "id": 268439864
+        },
+        {
+            "license": "闽AYC351",
+            "route_id": 326,
+            "device_id": "268436856",
+            "driver_tel": "18000012351",
+            "route_name": "11路",
+            "id": 268437364
+        },
+        {
+            "license": "闽AYD363",
+            "route_id": 326,
+            "device_id": "268436859",
+            "driver_tel": "18000013363",
+            "route_name": "11路",
+            "id": 268437367
+        },
+        {
+            "license": "闽AYB311",
+            "route_id": 332,
+            "device_id": "268438636",
+            "driver_tel": "18000011311",
+            "route_name": "39路",
+            "id": 268439132
+        },
+        {
+            "license": "闽AYB260",
+            "route_id": 332,
+            "device_id": "268438631",
+            "driver_tel": "18000011260",
+            "route_name": "39路",
+            "id": 268439127
+        },
+        {
+            "license": "闽AYB212",
+            "route_id": 332,
+            "device_id": "268438628",
+            "driver_tel": "18000011212",
+            "route_name": "39路",
+            "id": 268439124
+        },
+        {
+            "license": "闽AYB101",
+            "route_id": 332,
+            "device_id": "268438618",
+            "driver_tel": "18000011101",
+            "route_name": "39路",
+            "id": 268439114
+        },
+        {
+            "license": "闽AYB029",
+            "route_id": 332,
+            "device_id": "268438615",
+            "driver_tel": "18000011029",
+            "route_name": "39路",
+            "id": 268439111
+        },
+        {
+            "license": "闽AYB175",
+            "route_id": 332,
+            "device_id": "268438620",
+            "driver_tel": "18000011175",
+            "route_name": "39路",
+            "id": 268439116
+        },
+        {
+            "license": "闽AYB272",
+            "route_id": 332,
+            "device_id": "268438634",
+            "driver_tel": "18000011272",
+            "route_name": "39路",
+            "id": 268439130
+        },
+        {
+            "license": "闽AYB326",
+            "route_id": 332,
+            "device_id": "268438637",
+            "driver_tel": "18000011326",
+            "route_name": "39路",
+            "id": 268439133
+        },
+        {
+            "license": "闽AYB028",
+            "route_id": 332,
+            "device_id": "268438622",
+            "driver_tel": "18000011028",
+            "route_name": "39路",
+            "id": 268439118
+        },
+        {
+            "license": "闽AYB178",
+            "route_id": 332,
+            "device_id": "268438624",
+            "driver_tel": "18000011178",
+            "route_name": "39路",
+            "id": 268439120
+        },
+        {
+            "license": "闽AYC515",
+            "route_id": 298,
+            "device_id": "268436726",
+            "driver_tel": "18000012515",
+            "route_name": "36路",
+            "id": 268437233
+        },
+        {
+            "license": "闽AYC988",
+            "route_id": 298,
+            "device_id": "268436716",
+            "driver_tel": "18000012988",
+            "route_name": "36路",
+            "id": 268437224
+        },
+        {
+            "license": "闽AYC282",
+            "route_id": 298,
+            "device_id": "268436712",
+            "driver_tel": "18000012282",
+            "route_name": "36路",
+            "id": 268437220
+        },
+        {
+            "license": "闽AYC061",
+            "route_id": 298,
+            "device_id": "268436711",
+            "driver_tel": "18000012061",
+            "route_name": "36路",
+            "id": 268437219
+        },
+        {
+            "license": "闽AYC951",
+            "route_id": 298,
+            "device_id": "268436707",
+            "driver_tel": "18000012951",
+            "route_name": "36路",
+            "id": 268437215
+        },
+        {
+            "license": "闽AYC860",
+            "route_id": 298,
+            "device_id": "268436723",
+            "driver_tel": "18000012860",
+            "route_name": "36路",
+            "id": 268437230
+        },
+        {
+            "license": "闽AYC956",
+            "route_id": 298,
+            "device_id": "268436714",
+            "driver_tel": "18000012956",
+            "route_name": "36路",
+            "id": 268437222
+        },
+        {
+            "license": "闽AY7036",
+            "route_id": 330,
+            "device_id": "268437333",
+            "driver_tel": "18000007036",
+            "route_name": "20路",
+            "id": 268437838
+        },
+        {
+            "license": "闽AY7022",
+            "route_id": 330,
+            "device_id": "268437327",
+            "driver_tel": "18000007022",
+            "route_name": "20路",
+            "id": 268437832
+        },
+        {
+            "license": "闽AY7007",
+            "route_id": 330,
+            "device_id": "268437285",
+            "driver_tel": "18000007007",
+            "route_name": "20路",
+            "id": 268437790
+        },
+        {
+            "license": "闽AY7050",
+            "route_id": 330,
+            "device_id": "268437317",
+            "driver_tel": "18000007050",
+            "route_name": "20路",
+            "id": 268437822
+        },
+        {
+            "license": "闽AY6955",
+            "route_id": 330,
+            "device_id": "268437045",
+            "driver_tel": "18000006955",
+            "route_name": "20路",
+            "id": 268437553
+        },
+        {
+            "license": "闽AY6978",
+            "route_id": 330,
+            "device_id": "268437292",
+            "driver_tel": "18000006978",
+            "route_name": "20路",
+            "id": 268437797
+        },
+        {
+            "license": "闽AY7030",
+            "route_id": 330,
+            "device_id": "268437334",
+            "driver_tel": "18000007030",
+            "route_name": "20路",
+            "id": 268437839
+        },
+        {
+            "license": "闽AY6987",
+            "route_id": 330,
+            "device_id": "268437298",
+            "driver_tel": "18000006987",
+            "route_name": "20路",
+            "id": 268437803
+        },
+        {
+            "license": "闽AY6580",
+            "route_id": 330,
+            "device_id": "268437310",
+            "driver_tel": "18000006580",
+            "route_name": "20路",
+            "id": 268437815
+        },
+        {
+            "license": "闽AY6925",
+            "route_id": 330,
+            "device_id": "268437344",
+            "driver_tel": "18000006925",
+            "route_name": "20路",
+            "id": 268437849
+        },
+        {
+            "license": "闽AYC800",
+            "route_id": 302,
+            "device_id": "268436700",
+            "driver_tel": "18000012800",
+            "route_name": "51路",
+            "id": 268437205
+        },
+        {
+            "license": "闽AYC608",
+            "route_id": 302,
+            "device_id": "268436691",
+            "driver_tel": "18000012608",
+            "route_name": "51路",
+            "id": 268437211
+        },
+        {
+            "license": "闽AYC720",
+            "route_id": 302,
+            "device_id": "268436706",
+            "driver_tel": "18000012720",
+            "route_name": "51路",
+            "id": 268437208
+        },
+        {
+            "license": "闽AYD008",
+            "route_id": 302,
+            "device_id": "268436703",
+            "driver_tel": "18000013008",
+            "route_name": "51路",
+            "id": 268437204
+        },
+        {
+            "license": "闽AYC780",
+            "route_id": 302,
+            "device_id": "268436688",
+            "driver_tel": "18000012780",
+            "route_name": "51路",
+            "id": 268437200
+        },
+        {
+            "license": "闽AYC625",
+            "route_id": 302,
+            "device_id": "268436693",
+            "driver_tel": "18000012625",
+            "route_name": "51路",
+            "id": 268437198
+        },
+        {
+            "license": "闽AYC598",
+            "route_id": 302,
+            "device_id": "268436696",
+            "driver_tel": "18000012598",
+            "route_name": "51路",
+            "id": 268437201
+        },
+        {
+            "license": "闽AYC877",
+            "route_id": 302,
+            "device_id": "268436685",
+            "driver_tel": "18000012877",
+            "route_name": "51路",
+            "id": 268437196
+        },
+        {
+            "license": "闽AYC657",
+            "route_id": 302,
+            "device_id": "268436694",
+            "driver_tel": "18000012657",
+            "route_name": "51路",
+            "id": 268437213
+        },
+        {
+            "license": "闽AYC907",
+            "route_id": 302,
+            "device_id": "268436683",
+            "driver_tel": "18000012907",
+            "route_name": "51路",
+            "id": 268437194
+        },
+        {
+            "license": "闽AY9680",
+            "route_id": 337,
+            "device_id": "268437112",
+            "driver_tel": "18000009680",
+            "route_name": "2路",
+            "id": 268437621
+        },
+        {
+            "license": "闽AY9661",
+            "route_id": 337,
+            "device_id": "268437058",
+            "driver_tel": "18000009661",
+            "route_name": "2路",
+            "id": 268437566
+        },
+        {
+            "license": "闽AY9565",
+            "route_id": 337,
+            "device_id": "268437054",
+            "driver_tel": "18000009565",
+            "route_name": "2路",
+            "id": 268437562
+        },
+        {
+            "license": "闽AY9662",
+            "route_id": 337,
+            "device_id": "268437081",
+            "driver_tel": "18000009662",
+            "route_name": "2路",
+            "id": 268437589
+        },
+        {
+            "license": "闽AY9607",
+            "route_id": 337,
+            "device_id": "268437111",
+            "driver_tel": "18000009607",
+            "route_name": "2路",
+            "id": 268437620
+        },
+        {
+            "license": "闽A03770D",
+            "route_id": 348,
+            "device_id": "268439411",
+            "driver_tel": "19300003770",
+            "route_name": "7路",
+            "id": 268439906
+        },
+        {
+            "license": "闽A00782D",
+            "route_id": 348,
+            "device_id": "268439407",
+            "driver_tel": "19300000782",
+            "route_name": "7路",
+            "id": 268439902
+        },
+        {
+            "license": "闽A07029D",
+            "route_id": 348,
+            "device_id": "268439400",
+            "driver_tel": "19300007029",
+            "route_name": "7路",
+            "id": 268439895
+        },
+        {
+            "license": "闽A03778D",
+            "route_id": 348,
+            "device_id": "268439410",
+            "driver_tel": "19300003778",
+            "route_name": "7路",
+            "id": 268439905
+        },
+        {
+            "license": "闽A06605D",
+            "route_id": 348,
+            "device_id": "268439413",
+            "driver_tel": "19300006605",
+            "route_name": "7路",
+            "id": 268439908
+        },
+        {
+            "license": "闽A07052D",
+            "route_id": 348,
+            "device_id": "268439402",
+            "driver_tel": "19300007052",
+            "route_name": "7路",
+            "id": 268439897
+        },
+        {
+            "license": "闽A03901D",
+            "route_id": 348,
+            "device_id": "268439408",
+            "driver_tel": "19300003901",
+            "route_name": "7路",
+            "id": 268439903
+        },
+        {
+            "license": "闽A07089D",
+            "route_id": 348,
+            "device_id": "268439406",
+            "driver_tel": "19300007089",
+            "route_name": "7路",
+            "id": 268439901
+        },
+        {
+            "license": "闽A03729D",
+            "route_id": 348,
+            "device_id": "268439401",
+            "driver_tel": "19300003729",
+            "route_name": "7路",
+            "id": 268439896
+        },
+        {
+            "license": "闽A08793D",
+            "route_id": 348,
+            "device_id": "268439398",
+            "driver_tel": "19300008793",
+            "route_name": "7路",
+            "id": 268439893
+        },
+        {
+            "license": "闽A03236D",
+            "route_id": 348,
+            "device_id": "268439403",
+            "driver_tel": "19300003236",
+            "route_name": "7路",
+            "id": 268439898
+        },
+        {
+            "license": "闽AY9009",
+            "route_id": 339,
+            "device_id": "268437203",
+            "driver_tel": "18000009009",
+            "route_name": "5路",
+            "id": 268437707
+        },
+        {
+            "license": "闽AY9077",
+            "route_id": 339,
+            "device_id": "268437204",
+            "driver_tel": "18000009077",
+            "route_name": "5路",
+            "id": 268437708
+        },
+        {
+            "license": "闽AY9600",
+            "route_id": 339,
+            "device_id": "268437430",
+            "driver_tel": "18000009600",
+            "route_name": "5路",
+            "id": 268437936
+        },
+        {
+            "license": "闽AY9061",
+            "route_id": 339,
+            "device_id": "268437195",
+            "driver_tel": "18000009061",
+            "route_name": "5路",
+            "id": 268437699
+        },
+        {
+            "license": "闽AY9112",
+            "route_id": 339,
+            "device_id": "268437432",
+            "driver_tel": "18000009112",
+            "route_name": "5路",
+            "id": 268437938
+        },
+        {
+            "license": "闽AY9037",
+            "route_id": 339,
+            "device_id": "268437148",
+            "driver_tel": "18000009037",
+            "route_name": "5路",
+            "id": 268437653
+        },
+        {
+            "license": "闽AY8516",
+            "route_id": 355,
+            "device_id": "268437342",
+            "driver_tel": "18000008516",
+            "route_name": "52路",
+            "id": 268437847
+        },
+        {
+            "license": "闽AY8558",
+            "route_id": 355,
+            "device_id": "268437422",
+            "driver_tel": "18000008558",
+            "route_name": "52路",
+            "id": 268437928
+        },
+        {
+            "license": "闽AY8569",
+            "route_id": 355,
+            "device_id": "268437413",
+            "driver_tel": "18000008569",
+            "route_name": "52路",
+            "id": 268437919
+        },
+        {
+            "license": "闽AY8528",
+            "route_id": 355,
+            "device_id": "268437341",
+            "driver_tel": "18000008528",
+            "route_name": "52路",
+            "id": 268437846
+        },
+        {
+            "license": "闽AY8557",
+            "route_id": 355,
+            "device_id": "268437368",
+            "driver_tel": "18000008557",
+            "route_name": "52路",
+            "id": 268437874
+        },
+        {
+            "license": "闽AY9192",
+            "route_id": 338,
+            "device_id": "268437075",
+            "driver_tel": "18000009192",
+            "route_name": "10路",
+            "id": 268437583
+        },
+        {
+            "license": "闽AY9085",
+            "route_id": 338,
+            "device_id": "268437071",
+            "driver_tel": "18000009085",
+            "route_name": "10路",
+            "id": 268437579
+        },
+        {
+            "license": "闽AY9111",
+            "route_id": 338,
+            "device_id": "268437092",
+            "driver_tel": "18000009111",
+            "route_name": "10路",
+            "id": 268437600
+        },
+        {
+            "license": "闽AY9117",
+            "route_id": 338,
+            "device_id": "268437090",
+            "driver_tel": "18000009117",
+            "route_name": "10路",
+            "id": 268437598
+        },
+        {
+            "license": "闽AY9057",
+            "route_id": 338,
+            "device_id": "268437086",
+            "driver_tel": "18000009057",
+            "route_name": "10路",
+            "id": 268437594
+        },
+        {
+            "license": "闽AY9072",
+            "route_id": 338,
+            "device_id": "268437053",
+            "driver_tel": "18000009072",
+            "route_name": "10路",
+            "id": 268437561
+        },
+        {
+            "license": "闽AY9102",
+            "route_id": 338,
+            "device_id": "268437067",
+            "driver_tel": "18000009102",
+            "route_name": "10路",
+            "id": 268437575
+        },
+        {
+            "license": "闽AY9123",
+            "route_id": 338,
+            "device_id": "268437113",
+            "driver_tel": "18000009123",
+            "route_name": "10路",
+            "id": 268437622
+        },
+        {
+            "license": "闽AY9151",
+            "route_id": 338,
+            "device_id": "268437089",
+            "driver_tel": "18000009151",
+            "route_name": "10路",
+            "id": 268437597
+        },
+        {
+            "license": "闽AY9036",
+            "route_id": 338,
+            "device_id": "268437097",
+            "driver_tel": "18000009036",
+            "route_name": "10路",
+            "id": 268437606
+        },
+        {
+            "license": "闽AY9199",
+            "route_id": 338,
+            "device_id": "268437079",
+            "driver_tel": "18000009199",
+            "route_name": "10路",
+            "id": 268437587
+        },
+        {
+            "license": "闽AY9180",
+            "route_id": 338,
+            "device_id": "268437052",
+            "driver_tel": "18000009180",
+            "route_name": "10路",
+            "id": 268437560
+        },
+        {
+            "license": "闽A00590F",
+            "route_id": 392,
+            "device_id": "268439148",
+            "driver_tel": "19000000590",
+            "route_name": "14路",
+            "id": 268439643
+        },
+        {
+            "license": "闽A00512F",
+            "route_id": 392,
+            "device_id": "268439157",
+            "driver_tel": "19000000512",
+            "route_name": "14路",
+            "id": 268439652
+        },
+        {
+            "license": "闽A00570F",
+            "route_id": 392,
+            "device_id": "268439153",
+            "driver_tel": "19000000570",
+            "route_name": "14路",
+            "id": 268439648
+        },
+        {
+            "license": "闽A00685F",
+            "route_id": 392,
+            "device_id": "268439147",
+            "driver_tel": "19000000685",
+            "route_name": "14路",
+            "id": 268439642
+        },
+        {
+            "license": "闽A00697F",
+            "route_id": 392,
+            "device_id": "268439150",
+            "driver_tel": "19000000697",
+            "route_name": "14路",
+            "id": 268439645
+        },
+        {
+            "license": "闽A00616F",
+            "route_id": 392,
+            "device_id": "268439161",
+            "driver_tel": "19000000616",
+            "route_name": "14路",
+            "id": 268439656
+        },
+        {
+            "license": "闽A00553F",
+            "route_id": 392,
+            "device_id": "268439159",
+            "driver_tel": "19000000553",
+            "route_name": "14路",
+            "id": 268439654
+        },
+        {
+            "license": "闽A00500F",
+            "route_id": 392,
+            "device_id": "268439149",
+            "driver_tel": "19000000500",
+            "route_name": "14路",
+            "id": 268439644
+        },
+        {
+            "license": "闽AYB202",
+            "route_id": 458,
+            "device_id": "268438949",
+            "driver_tel": "18000011202",
+            "route_name": "8路",
+            "id": 268439443
+        },
+        {
+            "license": "闽AYB153",
+            "route_id": 458,
+            "device_id": "268438937",
+            "driver_tel": "18000011153",
+            "route_name": "8路",
+            "id": 268439431
+        },
+        {
+            "license": "闽AYB307",
+            "route_id": 458,
+            "device_id": "268438932",
+            "driver_tel": "18000011307",
+            "route_name": "8路",
+            "id": 268439426
+        },
+        {
+            "license": "闽AYB302",
+            "route_id": 458,
+            "device_id": "268438953",
+            "driver_tel": "18000011302",
+            "route_name": "8路",
+            "id": 268439447
+        },
+        {
+            "license": "闽AYB208",
+            "route_id": 458,
+            "device_id": "268438956",
+            "driver_tel": "18000011208",
+            "route_name": "8路",
+            "id": 268439450
+        },
+        {
+            "license": "闽AYB296",
+            "route_id": 458,
+            "device_id": "268438951",
+            "driver_tel": "18000011296",
+            "route_name": "8路",
+            "id": 268439445
+        },
+        {
+            "license": "闽AYB535",
+            "route_id": 458,
+            "device_id": "268438919",
+            "driver_tel": "18000011535",
+            "route_name": "8路",
+            "id": 268439413
+        },
+        {
+            "license": "闽AYB375",
+            "route_id": 458,
+            "device_id": "268438957",
+            "driver_tel": "18000011375",
+            "route_name": "8路",
+            "id": 268439451
+        },
+        {
+            "license": "闽AYB397",
+            "route_id": 458,
+            "device_id": "268438921",
+            "driver_tel": "18000011397",
+            "route_name": "8路",
+            "id": 268439415
+        },
+        {
+            "license": "闽AYB336",
+            "route_id": 458,
+            "device_id": "268438947",
+            "driver_tel": "18000011336",
+            "route_name": "8路",
+            "id": 268439441
+        },
+        {
+            "license": "闽AYB218",
+            "route_id": 407,
+            "device_id": "268438063",
+            "driver_tel": "18000011218",
+            "route_name": "37路",
+            "id": 268438558
+        },
+        {
+            "license": "闽AYB229",
+            "route_id": 407,
+            "device_id": "268438077",
+            "driver_tel": "18000011229",
+            "route_name": "37路",
+            "id": 268438572
+        },
+        {
+            "license": "闽AYA502",
+            "route_id": 407,
+            "device_id": "268438081",
+            "driver_tel": "18000010502",
+            "route_name": "37路",
+            "id": 268438576
+        },
+        {
+            "license": "闽AYA620",
+            "route_id": 407,
+            "device_id": "268438082",
+            "driver_tel": "18000010620",
+            "route_name": "37路",
+            "id": 268438577
+        },
+        {
+            "license": "闽AYB226",
+            "route_id": 407,
+            "device_id": "268438069",
+            "driver_tel": "18000011226",
+            "route_name": "37路",
+            "id": 268438564
+        },
+        {
+            "license": "闽AYB083",
+            "route_id": 407,
+            "device_id": "268438062",
+            "driver_tel": "18000011083",
+            "route_name": "37路",
+            "id": 268438557
+        },
+        {
+            "license": "闽AYB235",
+            "route_id": 407,
+            "device_id": "268438074",
+            "driver_tel": "18000011235",
+            "route_name": "37路",
+            "id": 268438569
+        },
+        {
+            "license": "闽AYB166",
+            "route_id": 407,
+            "device_id": "268438060",
+            "driver_tel": "18000011166",
+            "route_name": "37路",
+            "id": 268438555
+        },
+        {
+            "license": "闽AYB231",
+            "route_id": 407,
+            "device_id": "268438076",
+            "driver_tel": "18000011231",
+            "route_name": "37路",
+            "id": 268438571
+        },
+        {
+            "license": "闽AYB227",
+            "route_id": 407,
+            "device_id": "268438058",
+            "driver_tel": "18000011227",
+            "route_name": "37路",
+            "id": 268438553
+        },
+        {
+            "license": "闽AYA120",
+            "route_id": 377,
+            "device_id": "268437829",
+            "driver_tel": "18000010120",
+            "route_name": "1路",
+            "id": 268438325
+        },
+        {
+            "license": "闽AYA078",
+            "route_id": 377,
+            "device_id": "268437830",
+            "driver_tel": "18000010078",
+            "route_name": "1路",
+            "id": 268438326
+        },
+        {
+            "license": "闽AYA061",
+            "route_id": 377,
+            "device_id": "268437824",
+            "driver_tel": "18000010061",
+            "route_name": "1路",
+            "id": 268438320
+        },
+        {
+            "license": "闽AYA027",
+            "route_id": 377,
+            "device_id": "268437850",
+            "driver_tel": "18000010027",
+            "route_name": "1路",
+            "id": 268438346
+        },
+        {
+            "license": "闽AYA071",
+            "route_id": 377,
+            "device_id": "268437715",
+            "driver_tel": "18000010071",
+            "route_name": "1路",
+            "id": 268438215
+        },
+        {
+            "license": "闽AYA025",
+            "route_id": 377,
+            "device_id": "268437803",
+            "driver_tel": "18000010025",
+            "route_name": "1路",
+            "id": 268438299
+        },
+        {
+            "license": "闽AYA053",
+            "route_id": 377,
+            "device_id": "268437817",
+            "driver_tel": "18000010053",
+            "route_name": "1路",
+            "id": 268438313
+        },
+        {
+            "license": "闽AYA072",
+            "route_id": 377,
+            "device_id": "268437767",
+            "driver_tel": "18000010072",
+            "route_name": "1路",
+            "id": 268438263
+        },
+        {
+            "license": "闽AYA020",
+            "route_id": 377,
+            "device_id": "268437672",
+            "driver_tel": "18000010020",
+            "route_name": "1路",
+            "id": 268438175
+        },
+        {
+            "license": "闽AYA172",
+            "route_id": 377,
+            "device_id": "268437689",
+            "driver_tel": "18000010172",
+            "route_name": "1路",
+            "id": 268438192
+        },
+        {
+            "license": "闽AYA052",
+            "route_id": 377,
+            "device_id": "268437823",
+            "driver_tel": "18000010052",
+            "route_name": "1路",
+            "id": 268438319
+        },
+        {
+            "license": "闽AYA119",
+            "route_id": 377,
+            "device_id": "268437699",
+            "driver_tel": "18000010119",
+            "route_name": "1路",
+            "id": 268438201
+        },
+        {
+            "license": "闽AY8289",
+            "route_id": 459,
+            "device_id": "268438980",
+            "driver_tel": "18000008289",
+            "route_name": "22路",
+            "id": 268439474
+        },
+        {
+            "license": "闽AY8296",
+            "route_id": 459,
+            "device_id": "268438984",
+            "driver_tel": "18000008296",
+            "route_name": "22路",
+            "id": 268439478
+        },
+        {
+            "license": "闽AY8285",
+            "route_id": 459,
+            "device_id": "268438969",
+            "driver_tel": "18000008285",
+            "route_name": "22路",
+            "id": 268439463
+        },
+        {
+            "license": "闽AY8291",
+            "route_id": 459,
+            "device_id": "268438960",
+            "driver_tel": "18000008291",
+            "route_name": "22路",
+            "id": 268439454
+        },
+        {
+            "license": "闽AY8266",
+            "route_id": 459,
+            "device_id": "268438958",
+            "driver_tel": "18000008266",
+            "route_name": "22路",
+            "id": 268439452
+        },
+        {
+            "license": "闽AY8221",
+            "route_id": 459,
+            "device_id": "268438988",
+            "driver_tel": "18000008221",
+            "route_name": "22路",
+            "id": 268439483
+        },
+        {
+            "license": "闽AY8282",
+            "route_id": 459,
+            "device_id": "268438972",
+            "driver_tel": "18000008282",
+            "route_name": "22路",
+            "id": 268439466
+        },
+        {
+            "license": "闽AY8280",
+            "route_id": 459,
+            "device_id": "268438970",
+            "driver_tel": "18000008280",
+            "route_name": "22路",
+            "id": 268439464
+        },
+        {
+            "license": "闽AY8273",
+            "route_id": 459,
+            "device_id": "268438997",
+            "driver_tel": "18000008273",
+            "route_name": "22路",
+            "id": 268439492
+        },
+        {
+            "license": "闽AY8255",
+            "route_id": 459,
+            "device_id": "268438964",
+            "driver_tel": "18000008255",
+            "route_name": "22路",
+            "id": 268439458
+        }
+    ]
+}

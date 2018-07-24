@@ -6,8 +6,8 @@ import buildingList from "./mockData/buildingList";
 import tableData from "./mockData/tableData";
 import validateResult from "./mockData/validateResult";
 
-const apis = PROXY.apiList;
-const baseUrl = PROXY.baseUrl;
+const apis = API.apiList;
+const baseUrl = API.baseUrl;
 
 function url2pathParam(docUrl, reqUrl) {
   let docUrlArr = docUrl.split("/");

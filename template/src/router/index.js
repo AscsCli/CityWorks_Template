@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import frame from '../pages/frame/frame.vue';
+import measure2D from '../pages/rightrouter/celiangTools/measure2D.vue'
 import measure from '../pages/rightrouter/measure/measure2D';
 Vue.use(Router);
+
+
 
 const routes = [
     {
@@ -17,7 +20,7 @@ const routes = [
         children:[
             {
                 path: 'measure2D',
-                component: measure
+                component: measure2D
             },
             {
               path: 'swipView',

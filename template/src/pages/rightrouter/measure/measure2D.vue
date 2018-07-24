@@ -1,9 +1,7 @@
 <template>
-    <rk-section :model="'测试'">
-        <div class="con">自定义放置内容</div>
-        <div class="con">自定义放置内容</div>
-        <div class="con">自定义放置内容</div>
-    </rk-section>
+    <div>
+        <span>测试</span>
+    </div>
 </template>
 <script>
   export default {
@@ -11,8 +9,11 @@
     data() {
       return {}
     },
-    mounted() {
-
+    mounted(){
+      window.$apis.getBuildingList().then(val => {
+            console.log("重点建筑");
+            console.log(val.data.content);
+      });
     }
   }
 </script>

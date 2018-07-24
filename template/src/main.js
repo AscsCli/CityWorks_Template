@@ -3,23 +3,21 @@
 import {setREM} from './plugin/setREM';
 import "./api/mock/mock";
 
-
 import 'babel-polyfill';
 import Vue from 'vue';
 import router from './router';
-import store from './vuex/index';
+import store from './store/index';
 
 import Rocket from '@cityworks/rocket-ui';
 import '@cityworks/rocket-ui/rocket-theme/index.css';
 import "./style/index.scss";
 
-import {ApiFactor} from "./api/api-factor";
-
 Vue.use(Rocket);
-
 Vue.config.productionTip = false;
-const baseUrl = PROXY.baseUrl;
-const apiConfs = PROXY.apiList;
+
+import {ApiFactor} from "./api/api-factor";
+const baseUrl = API.baseUrl;
+const apiConfs = API.apiList;
 
 window.$apis = ApiFactor(baseUrl,apiConfs);
 

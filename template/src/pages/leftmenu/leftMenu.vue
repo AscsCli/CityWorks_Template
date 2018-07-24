@@ -5,6 +5,7 @@
                  <li v-for="(item,index) in menu" :class="{active:item.show}" :key="index" @click="setActive(index,item)">
                     <p class="menu-icon">
                         <i class="icon iconfont" :class="item.class"></i>
+
                     </p>
                     <span>{{item.title}}</span>
                 </li>
@@ -14,7 +15,7 @@
                 <div class="shouqi" @click="toggle">
                     <i class="icon-zhankaishouqi icon iconfont"></i>
                 </div>
-                <rk-menu v-if="showDeatil" :datas="obj" :title="menuTitle" :showeyes='show' @eyeClick="eyeClick" @itemClick="itemClick"></rk-menu>
+                <rk-menu v-if="showDeatil" :datas="obj" :title="menuTitle" :showeyes='show' @eyeClick="eyeclick" @itemClick="itemclick"></rk-menu>
             </div>
     </div>
 </template>
@@ -22,6 +23,7 @@
     import { mapGetters,mapActions } from 'vuex';
     import {EventBus} from '../../eventBus/eventBus.js'
     import axios from 'axios'
+
     export default {
         data(){
             return {
@@ -41,17 +43,17 @@
            ]) 
         },
         methods:{
-            itemClick(item){
+            itemclick(item){
                 if(this.show == false){
                     EventBus.bus.emit("LEFT_DETAIL",item)
                 }
             },
-            eyeClick(item){
+            eyeclick(item){
                 EventBus.bus.emit("LEFT_DETAIL",item)
             },
             setActive(index,item){
                 //收起动画效果
-                this.$store.dispatch('CloseMenu',true)
+                this.$store.dispatch('CloseMenu',true);
                 //左侧点击切换效果
                 this.menu[this.default_index].show = false;
                 this.menu[index].show = true;
@@ -59,10 +61,13 @@
                 //赋值操作
                 this.obj = this.menu[index].data;
                 this.menuTitle = this.menu[index].title;
-                this.show = this.menu[index].showeyes
+                this.show = this.menu[index].showeyes;
 
                 //触发监听的LEFT_FIRSTC事件
                 EventBus.bus.emit("LEFT_FIRSTC",item)
+            },
+            exportFuc(item){
+                
             },
             toggle(){
                 this.$store.dispatch('CloseMenu',false)

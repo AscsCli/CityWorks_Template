@@ -1,0 +1,60 @@
+{
+    "toolBars3d": [
+        {
+            "class": "d1",
+            "title": "转换成2D"
+        },
+        {
+            "class": "dianxuan",
+            "title": "选中"
+        },
+        {
+            "class": "zhuashou",
+            "title": "手型"
+        },
+        {
+            "class": "poi",
+            "title": "POI"
+        },
+        {
+            "class": "yingyan",
+            "title": "鹰眼"
+        },
+        {
+            "class": "huanchongfenxi",
+            "title": "透视分析"
+        },
+        {
+            "class": "fuyuan",
+            "title": "初始化"
+        },
+        {
+            "class": "celiang",
+            "title": "测量"
+        },
+        {
+            "class": "xiangpica",
+            "title": "清除"
+        },
+        {
+            "class": "wadong",
+            "title": "挖洞"
+        },
+        {
+            "class": "shexiangtou",
+            "title": "摄像头"
+        },
+        {
+            "class": "guijifeihang",
+            "title": "飞行轨迹"
+        },
+        {
+            "class": "quanping",
+            "title": "全屏"
+        },
+        {
+            "class": "erfenping",
+            "title": "2D3D分屏"
+        }
+    ]
+}

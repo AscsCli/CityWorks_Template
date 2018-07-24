@@ -1,0 +1,52 @@
+{
+    "toolBar2d": [
+        {
+            "class": "d",
+            "title": "转换成3D"
+        },
+        {
+            "class": "Group",
+            "title": "卷帘"
+        },
+        {
+            "class": "huanchongfenxi",
+            "title": "缓冲分析"
+        },
+        {
+            "class": "poi",
+            "title": "POI"
+        },
+        {
+            "class": "shuqian",
+            "title": "书签"
+        },
+        {
+            "class": "celiang",
+            "title": "测量"
+        },
+        {
+            "class": "erfenping",
+            "title": "分屏"
+        },
+        {
+            "class": "dianxuan",
+            "title": "选中"
+        },
+        {
+            "class": "yingyan",
+            "title": "鹰眼"
+        },
+        {
+            "class": "xiangpica",
+            "title": "清除"
+        },
+        {
+            "class": "shitai",
+            "title": "时态"
+        },
+        {
+            "class": "fuyuan",
+            "title": "初始化"
+        }
+    ]
+}

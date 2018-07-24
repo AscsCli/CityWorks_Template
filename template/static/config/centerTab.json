@@ -1,0 +1,36 @@
+{
+    "tab2d":[
+        {
+            "name": "地理变化1",
+            "router": "home/layerTimerView",
+            "powercode": "DILI"
+        },
+        {
+            "name": "影像对比1",
+            "router": "home/swipView",
+            "powercode": "YINGXIANG"
+        },
+        {
+            "name": "测量工具1",
+            "router": "home/measure2D",
+            "powercode": "CELIANG"
+        }
+    ],
+    "tab3d":[
+        {
+            "name": "地理变化",
+            "router": "home/layerTimerView",
+            "powercode": "DILI"
+        },
+        {
+            "name": "影像对比",
+            "router": "home/swipView",
+            "powercode": "YINGXIANG"
+        },
+        {
+            "name": "测量工具",
+            "router": "home/measure2D",
+            "powercode": "CELIANG"
+        }
+    ]
+}

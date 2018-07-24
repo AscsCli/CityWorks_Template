@@ -5,10 +5,8 @@
                  <li v-for="(item,index) in menu" :class="{active:item.show}" :key="index" @click="setActive(index,item)">
                     <p class="menu-icon">
                         <i class="icon iconfont" :class="item.class"></i>
-
                     </p>
                     <span>{{item.title}}</span>
-                    <!--<a href="javascript:;" :class="item.show?item.class+' active_a':item.class">{{item.title}}</a>-->
                 </li>
             </ul>
         </div>
@@ -16,7 +14,7 @@
                 <div class="shouqi" @click="toggle">
                     <i class="icon-zhankaishouqi icon iconfont"></i>
                 </div>
-                <rk-menu v-if="showDeatil" :datas="obj" :title="menuTitle" :showeyes='show' @eyeClick="eyeclick" @itemClick="itemclick"></rk-menu>
+                <rk-menu v-if="showDeatil" :datas="obj" :title="menuTitle" :showeyes='show' @eyeClick="eyeClick" @itemClick="itemClick"></rk-menu>
             </div>
     </div>
 </template>
@@ -24,7 +22,6 @@
     import { mapGetters,mapActions } from 'vuex';
     import {EventBus} from '../../eventBus/eventBus.js'
     import axios from 'axios'
-    // import {menu} from '../../../static/config/menu/menu.json'
     export default {
         data(){
             return {
@@ -44,12 +41,12 @@
            ]) 
         },
         methods:{
-            itemclick(item){
+            itemClick(item){
                 if(this.show == false){
                     EventBus.bus.emit("LEFT_DETAIL",item)
                 }
             },
-            eyeclick(item){
+            eyeClick(item){
                 EventBus.bus.emit("LEFT_DETAIL",item)
             },
             setActive(index,item){
@@ -67,14 +64,11 @@
                 //触发监听的LEFT_FIRSTC事件
                 EventBus.bus.emit("LEFT_FIRSTC",item)
             },
-            exportFuc(item){
-                
-            },
             toggle(){
                 this.$store.dispatch('CloseMenu',false)
             },
             getJson(){
-                axios.get('../../../static/config/menu/menu.json').then(res=>{
+                axios.get('../../../static/config/2d/menu_2d.json').then(res=>{
                     let data = res.data.menu.title;
                     this.menu = data;
                     this.menuTitle = this.menu[0].title;

@@ -6,6 +6,7 @@ import {baseMapManagerCtrl} from "@cityworks/gismap3";
 import {buffTool}  from  "@cityworks/gismap3";
 import {queryTool} from  "@cityworks/gismap3";
 import {configLoadTool} from  "@cityworks/gismap3";
+import {mouseMoveTool} from  "@cityworks/gismap3";
 let isShowEye = true;
 export const headIconListen = {
   mounted() {
@@ -22,14 +23,16 @@ export const headIconListen = {
         case '初始化':
           baseMapManagerCtrl.setMapInitExtent(this.mapId);
           break;
-
+        case '选中':
+          mouseMoveTool.startQuery(this.mapId);
+          break;
         case '鹰眼':
           if(isShowEye){
-            isShowEye = false
-            baseMapManagerCtrl.showOverView(this.mapId,true);
+            isShowEye = false;
+            baseMapManagerCtrl.showOverView(mapConfig.mapId,true);
           }else{
-            isShowEye = true
-            baseMapManagerCtrl.showOverView(this.mapId,false);
+            isShowEye = true;
+            baseMapManagerCtrl.showOverView(mapConfig.mapId,false);
           }
           break;
         case '缓冲分析':
@@ -39,13 +42,12 @@ export const headIconListen = {
             })
           })
           break;
-
+        case '转换成3D':
+			    this.$parent.isShow = false;
+          break;
         default:
           break;
       }
     })
-
-  
-
   },
 }

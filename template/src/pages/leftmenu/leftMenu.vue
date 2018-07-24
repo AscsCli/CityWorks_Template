@@ -23,7 +23,8 @@
 <script>
     import { mapGetters,mapActions } from 'vuex';
     import {EventBus} from '../../eventBus/eventBus.js'
-    import {menu} from '../../../static/config/menu/menu.js'
+    import axios from 'axios'
+    // import {menu} from '../../../static/config/menu/menu.json'
     export default {
         data(){
             return {
@@ -71,11 +72,19 @@
             },
             toggle(){
                 this.$store.dispatch('CloseMenu',false)
+            },
+            getJson(){
+                axios.get('../../../static/config/menu/menu.json').then(res=>{
+                    let data = res.data.menu.title;
+                    this.menu = data;
+                    this.menuTitle = this.menu[0].title;
+                    this.obj = this.menu[0].data
+                })
             }
         },
         mounted(){
-            this.menu = menu.menu.title
-            this.obj = this.menu[0].data;
+            this.getJson();
+           
         }
     }
 </script>

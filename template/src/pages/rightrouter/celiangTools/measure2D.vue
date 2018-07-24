@@ -21,7 +21,7 @@ export default {
       closeflag:true,
       selectedIndex: 0,
       resultLabel: "",
-      isCoordFlag:false,
+      isCoordFlag:true,
       buttons: [
         {
           name: "测距离",
@@ -37,9 +37,10 @@ export default {
   methods: {
     querySelect: function(type) {
       if (type == "distance") {
-        measureTool.measure(mapConfig.mapId, 'POLYLINE');
+        measureTool.measureLength(mapConfig.mapId);
       } else if (type == "area") {
-        measureTool.measure(mapConfig.mapId,'POLYGON');
+        measureTool.measureArea(mapConfig.mapId);
+
       } else if (type == "coord") {
         measureTool.coordClick(mapConfig.mapId,this.isCoordFlag);
       }
@@ -50,14 +51,11 @@ export default {
     eventBus.bus.addListener(eventBus.COORD,(result)=>{
       this.resultLabel = `X:${result.x.toFixed(2)}\nY:${result.y.toFixed(2)}`;
     })
-    eventBus.bus.addListener(eventBus.LENGTH, (result)=> {
-      this.resultLabel = `${result.lengths[0].toFixed(2)}m`
-    })
-    eventBus.bus.addListener(eventBus.AREA,(result)=>{
-      this.resultLabel = `${result.areas[0].toFixed(2)}m²`;
-    })
+   
   },
-  destroyed() {}
+  destroyed() {
+    measureTool.coordClick(mapConfig.mapId,false);
+  }
 };
 </script>
 <style lang="scss">

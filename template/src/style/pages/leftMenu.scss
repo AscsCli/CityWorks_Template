@@ -78,11 +78,17 @@
         transition: all .3s ease;
         position: relative;
         .menu-rk .messlist-tit{
-            font-size: 0.14rem
+            font-size: 0.14rem;
+            .icon{
+                font-size: .15rem;
+            }
+            .icon-yanjing{
+                font-size: .1rem;
+                transform: scale(0.9,0.9)
+            }
         }
-        .icon-yanjing{
-            font-size: .1rem
-        }
+        
+       
         .menu-rk .list-wrap{
             background: $leftdeatil
         }

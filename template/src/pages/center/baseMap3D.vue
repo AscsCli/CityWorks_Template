@@ -6,9 +6,21 @@
 
 <script>
 
-  export default {
-    name: "map3d"
-  }
+	import { cw5 } from "@cityworks/cw3d-cm/index";
+	import {head3DIconListen} from "./head3DIconListen";
+
+	export default {
+		name: "map3d",
+		mixins: [head3DIconListen],
+		data() {
+			return {
+			}
+		},
+		mounted() {
+			cw5.init();
+			cw5.loadMap(map3dLayers);
+		}
+	}
 </script>
 
 <style>

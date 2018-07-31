@@ -1,4 +1,4 @@
-var PROXY = {
+var API = {
   baseUrl:"",
   apiList:{
     getMapConfig:{

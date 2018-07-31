@@ -23,7 +23,7 @@
         is2D: false,
         data_show: true,
         nametitle: 'CityWorks',
-        title: mapConfig.title,
+        title: '',
         cwIcons: [],
         arcGisIcons: [],
         twoScreen: true,

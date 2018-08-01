@@ -1,5 +1,5 @@
 let fs = require("fs");
-let projectConfig = require("../static/config/projectConfig.js");
+let projectConfig = require("../static/config/projectConfig.json");
 let version = '3.5.3';
 
 let fileArray = [

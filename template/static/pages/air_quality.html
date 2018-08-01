@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>
+    <title>Hello World</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="../js/setREM.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #111e42;
+        }
+        .content{
+            color: #93ccf5;
+        }
+        .content p{
+            font-size: 0.7rem;
+            padding: 0 1.5rem;
+            height: 1.5rem;
+            line-height: 1.5rem;
+        }
+        table {
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+           /* border: 1px solid black;*/
+        }
+
+        th, td {
+            height: 1.5rem;
+            line-height: 1.5rem;
+        }
+        tbody tr{
+           /* background: #E7F0FF;*/
+        }
+        #ControlTitlebar {
+            background: #213058;
+            /*width: 400px;*/
+            height: 1.5rem;
+            cursor: pointer;
+        }
+
+        #ButtonClose {
+            width: 0.7rem;
+            height: 0.7rem;
+            line-height: 1.5rem;
+            font-size: 0.7rem;
+            float: right;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 0.5rem;
+            margin-right: 0.3rem;
+            border-radius: 0.1rem;
+            background-color: #93ccf5;
+            background: url("../images/ic_close.png") no-repeat;
+            background-size: contain;
+        }
+        #ButtonClose:hover{
+            /*background: #FF3333;*/
+        }
+        div.buttonGroup{
+            height:3rem;
+            line-height: 3rem;
+            text-align: center;
+        }
+
+        input[type = button] {
+            width: 6rem;
+            height: 1.5rem;
+            border-radius: 0.25rem;
+            color: #82CDF9;
+            background-color: #182246;
+        }
+       input[type = button]:hover {
+           color: #F4FAFF;
+           background-color: #00AEFA;
+       }
+    </style>
+</head>
+<body>
+<div>
+    <div id="ControlTitlebar">
+        <div id="ButtonClose"></div>
+    </div>
+    <div class="content-box">
+       <!-- <table class="table table-hover table-bordered" style="width: 100%">
+            <thead>
+            <tr>
+                <th>名称</th>
+                <th>信息</th>
+            </tr>
+            </thead>
+            <tbody id="bimTb">
+            </tbody>
+        </table>-->
+        <div class="content" id="content"></div>
+       <!-- <div class="buttonGroup">
+            <input type="button" value="室内三维" onclick='run()'/>
+            <input type="button" value="建筑档案册" onclick='book()'/>
+        </div>-->
+
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    //页面关闭
+    window.onunload = function () {
+        if (external.parentWindow.__g != undefined) {
+            if (external.parentWindow.__g.featureManager != undefined) {
+                external.parentWindow.__g.featureManager.unhighlightAll();
+            }
+            // external.parentWindow.__g.interactMode = gviInteractMode.gviInteractNormal;
+        }
+
+    };
+    var href = location.href;
+    var indexSingle = href.indexOf('?') + 1;
+    var viewId = location.href.substring(indexSingle, href.length);
+    //页面加载
+    window.onload = function () {
+
+        var propertyData = external.parentWindow.cwConfig.airQuality.swap;
+        if (propertyData === undefined){
+        	return;
+		}
+
+/*        var tbody = document.getElementById('bimTb');
+
+		var tr = document.createElement("tr");*/
+
+        var data = propertyData;
+
+		var content = document.getElementById('content');
+        for(var item in data){
+        	if(data.hasOwnProperty(item)){
+				/*var tr = document.createElement("tr");
+				var tdTitle = document.createElement("td");
+				var tdValue = document.createElement("td");*/
+				var temp = data[item];
+				if (!item || item === "length") {
+					continue;
+				}
+			/*	tdTitle.innerHTML = item;
+				tdValue.innerHTML = temp;
+				tr.appendChild(tdTitle);
+				tr.appendChild(tdValue);
+				tbody.appendChild(tr);*/
+				var p = document.createElement('p');
+				p.innerHTML = item + '：' + temp;
+				content.appendChild(p);
+
+            }
+        }
+        //控制按钮显示隐藏操作
+       /* var button = document.querySelector('.buttonGroup');
+        if(!external.parentWindow.cwConfig.queryPageStyle.button.isHiddenButton){
+            button.style.display = 'none';
+        }*/
+
+    };
+
+    /*function run(strPath) {
+        try {
+//              new ActiveXObject("Wscript.Shell").run("D:\\work\\works\\3dView\\"+ viewId + ".exe");
+            new ActiveXObject("Wscript.Shell").run("D:\\work\\works\\3dView\\4403070090150400006.exe");
+        }
+        catch (e) {
+            alert("D:\\work\\works\\3dView\\" + viewId + ".exe");
+            alert("请确定路径和文件名是否正确")
+        }
+    }
+
+    function book() {
+        var url = "http://58.60.185.51:5759/xfyhpc-ps-web/system.do?toBuildInfoMoreNoLogin&buildid=" + viewId;
+        window.open(url);
+    }*/
+</script>
+</html>
+

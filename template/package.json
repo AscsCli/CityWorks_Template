@@ -1,8 +1,8 @@
 {
-  "name": "1",
+  "name": "cityworks-templates-v3",
   "version": "1.0.0",
-  "description": "1",
-  "author": "1",
+  "description": "A Vue.js project",
+  "author": "游聪聪 <youcongcong@ascs.tech>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -17,12 +17,14 @@
     "@cityworks/cw3d-cm": "^2.0.2",
     "@cityworks/gismap3": "^1.0.27",
     "@cityworks/log": "^1.0.0",
-    "@cityworks/rocket-ui": "^1.1.18",
+    "@cityworks/rocket-ui": "^1.1.16",
     "babel-polyfill": "^6.26.0",
+    "esri-loader": "^0.3.1",
     "vue": "^2.5.2",
+    "vue-cookie": "^1.1.4",
+    "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1",
-    "wolfy87-eventemitter": "^5.2.5"
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -84,7 +86,8 @@
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "wolfy87-eventemitter": "^5.2.5"
   },
   "engines": {
     "node": ">= 6.0.0",

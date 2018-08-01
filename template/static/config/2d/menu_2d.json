@@ -1,57 +1,59 @@
 {
-    "menu": {
-        "title": [
-            {
-                "class": "icon-kongjianxinxi",
-                "isLeaf": false,
-                "show": true,
-                "name": "新建图层",
-                "title": "新建图层",
-                "showName": "新建图层",
-                "data": [
-                    {
-                        "name": "新建图层",
-                        "tit": "新建图层",
-                        "showName": "新建图层",
-                        "isLeaf": false,
-                        "show": false,
-                        "status": false,
-                        "lists": [
-                            {
-                                "name": "行政区",
-                                "tit": "行政区",
-                                "showName": "行政区",
-                                "isLeaf": true,
-                                "show": false
-                            }, {
-                                "name": "深圳市规划选址意见书",
-                                "tit": "深圳市规划选址意见书",
-                                "showName": "深圳市规划选址意见书",
-                                "isLeaf": true,
-                                "show": false
-                            }, {
-                                "name": "建设工程规划许可证",
-                                "tit": "建设工程规划许可证",
-                                "showName": "建设工程规划许可证",
-                                "isLeaf": true,
-                                "show": false
-                            }, {
-                                "name": "建设用地规划许可证",
-                                "tit": "建设用地规划许可证",
-                                "showName": "建设用地规划许可证",
-                                "isLeaf": true,
-                                "show": false
-                            }, {
-                                "name": "建设工程规划验收合格证",
-                                "tit": "建设工程规划验收合格证",
-                                "showName": "建设工程规划验收合格证",
-                                "isLeaf": true,
-                                "show": false
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
+    "menu": [
+        {
+            "class": "icon-hangzhengquhua",
+            "isLeaf": false,
+            "show": true,
+            "name": "新建图层",
+            "title": "新建图层",
+            "showName": "新建图层",
+            "data": [
+                {
+                    "name": "新建图层",
+                    "tit": "新建图层",
+                    "showName": "新建图层",
+                    "isLeaf": false,
+                    "show": false,
+                    "status": false,
+                    "lists": [
+                        {
+                            "name": "行政区",
+                            "tit": "行政区",
+                            "showName": "行政区",
+                            "isLeaf": true,
+                            "show": false
+                        },
+                        {
+                            "name": "深圳市规划选址意见书",
+                            "tit": "深圳市规划选址意见书",
+                            "showName": "深圳市规划选址意见书",
+                            "isLeaf": true,
+                            "show": false
+                        },
+                        {
+                            "name": "建设工程规划许可证",
+                            "tit": "建设工程规划许可证",
+                            "showName": "建设工程规划许可证",
+                            "isLeaf": true,
+                            "show": false
+                        },
+                        {
+                            "name": "建设用地规划许可证",
+                            "tit": "建设用地规划许可证",
+                            "showName": "建设用地规划许可证",
+                            "isLeaf": true,
+                            "show": false
+                        },
+                        {
+                            "name": "建设工程规划验收合格证",
+                            "tit": "建设工程规划验收合格证",
+                            "showName": "建设工程规划验收合格证",
+                            "isLeaf": true,
+                            "show": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

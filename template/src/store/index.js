@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import leftMenu from './modules/leftMenu'
-import getters from './getters'
-Vue.use(Vuex)
+import projectConfig from './modules/projectConfig'
+Vue.use(Vuex);
 const store = new Vuex.Store({
   modules: {
-    leftMenu
+    leftMenu,
+    projectConfig
   },
-  getters
-})
+});
 
 export default store

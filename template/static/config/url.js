@@ -22,6 +22,20 @@ var API = {
       method: "get",
       properties: [],
     },
+    getMenu2d:{
+      isMock: false,
+      description: "获取head的2D menu列表",
+      path: "./static/config/2d/menu_2d.json",
+      method: "get",
+      properties: [],
+    },
+    getMenu3d:{
+      isMock: false,
+      description: "获取head的3D menu列表",
+      path: "./static/config/3d/menu_3d.json",
+      method: "get",
+      properties: [],
+    },
     getCenterTab:{
       isMock: false,
       description: "获取Center的Tab列表",

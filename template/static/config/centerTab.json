@@ -1,36 +1,48 @@
 {
-    "tab2d":[
-        {
-            "name": "地理变化1",
-            "router": "home/layerTimerView",
-            "powercode": "DILI"
-        },
-        {
-            "name": "影像对比1",
-            "router": "home/swipView",
-            "powercode": "YINGXIANG"
-        },
-        {
-            "name": "测量工具1",
-            "router": "home/measure2D",
-            "powercode": "CELIANG"
-        }
-    ],
-    "tab3d":[
-        {
-            "name": "地理变化",
-            "router": "home/layerTimerView",
-            "powercode": "DILI"
-        },
-        {
-            "name": "影像对比",
-            "router": "home/swipView",
-            "powercode": "YINGXIANG"
-        },
-        {
-            "name": "测量工具",
-            "router": "home/measure2D",
-            "powercode": "CELIANG"
-        }
-    ]
+  "tab2d": [
+    {
+      "name": "地理变化1",
+      "router": "/home/layerTimerView",
+      "powercode": "DILI"
+    },
+    {
+      "name": "影像对比1",
+      "router": "/home/swipView",
+      "powercode": "YINGXIANG"
+    },
+    {
+      "name": "测量工具1",
+      "router": "/home/measure",
+      "powercode": "CELIANG"
+    }
+  ],
+  "tab3d": [
+    {
+      "name": "拉膜",
+      "router": "/home/layerTimerView",
+      "powercode": "DILI",
+        "actived": true
+
+    },
+    {
+      "name": "人房互查",
+      "router": "/home/measure",
+      "powercode": "CELIANG"
+    },
+    {
+      "name": "点击查询",
+      "router": "/home/measure",
+      "powercode": "CELIANG"
+    },
+    {
+      "name": "重点建筑",
+      "router": "/home/measure",
+      "powercode": "CELIANG"
+    },
+    {
+      "name": "空气监测",
+      "router": "/home/measure",
+      "powercode": "CELIANG"
+    }
+  ]
 }

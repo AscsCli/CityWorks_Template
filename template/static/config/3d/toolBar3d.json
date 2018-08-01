@@ -2,59 +2,74 @@
     "toolBars3d": [
         {
             "class": "d1",
-            "title": "转换成2D"
+            "title": "转换成2D",
+            "type": "func"
         },
         {
             "class": "dianxuan",
-            "title": "选中"
+            "title": "选中",
+            "type": "func"
         },
         {
             "class": "zhuashou",
-            "title": "手型"
+            "title": "手型",
+            "type": "func"
         },
         {
             "class": "poi",
-            "title": "POI"
+            "title": "POI",
+            "type": "func"
         },
         {
             "class": "yingyan",
-            "title": "鹰眼"
+            "title": "鹰眼",
+            "type": "func"
         },
         {
             "class": "huanchongfenxi",
-            "title": "透视分析"
+            "title": "透视分析",
+            "type": "func"
         },
         {
             "class": "fuyuan",
-            "title": "初始化"
+            "title": "初始化",
+            "type": "func"
         },
         {
             "class": "celiang",
-            "title": "测量"
+            "title": "测量",
+            "type": "route",
+            "path": "/home/measure"
         },
         {
             "class": "xiangpica",
-            "title": "清除"
+            "title": "清除",
+            "type": "func"
         },
         {
             "class": "wadong",
-            "title": "挖洞"
+            "title": "挖洞",
+            "type": "func"
         },
         {
             "class": "shexiangtou",
-            "title": "摄像头"
+            "title": "摄像头",
+            "type": "func"
         },
         {
             "class": "guijifeihang",
-            "title": "飞行轨迹"
+            "title": "飞行轨迹",
+            "type": "func"
         },
         {
             "class": "quanping",
-            "title": "全屏"
+            "title": "全屏",
+            "type": "func"
         },
         {
             "class": "erfenping",
-            "title": "2D3D分屏"
+            "title": "2D3D分屏",
+            "type": "func"
         }
     ]
 }

@@ -19,7 +19,7 @@
 
 <script>
   import headDom from '../head/head';
-  import leftMenu from '../leftMenu/leftMenu';
+  import leftMenu from '../leftmenu/leftmenu';
   import centerDom from '../center/center';
 
   export default {

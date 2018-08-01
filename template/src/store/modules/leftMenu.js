@@ -1,16 +1,18 @@
 const leftMenu = {
   state: {
-    showDeatil: true
+    showDetail: true
   },
-
+  getters: {
+    showDetail: state => state.showDetail,
+  },
   mutations: {
-    SET_SHOWDEATIL: (state, showDeatil) => {
+    SET_SHOW_DETAIL: (state, showDeatil) => {
       state.showDeatil = showDeatil
     }
   },
   actions: {
-    CloseMenu({ commit }, showDeatil) {
-      commit('SET_SHOWDEATIL', showDeatil)
+    closeMenu({ commit }, showDeatil) {
+      commit('SET_SHOW_DETAIL', showDeatil)
     }
   }
 }

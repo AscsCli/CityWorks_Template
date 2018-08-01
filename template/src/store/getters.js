@@ -1,5 +1,5 @@
 const getters = {
-  showDeatil: state => state.leftMenu.showDeatil,
+  showDetail: state => state.leftMenu.showDetail,
   
 }
 export default getters

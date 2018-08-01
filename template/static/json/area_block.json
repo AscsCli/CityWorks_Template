@@ -1,0 +1,434 @@
+{
+    "menu": {
+        "title": [
+            {
+                "class": "area",
+                "show": false,
+                "title": "行政区划",
+                "data": [
+                    {
+                        "tit": "福田区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [],
+                        "show": false
+                    },
+                    {
+                        "tit": "罗湖区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [],
+                        "show": false
+                    },
+                    {
+                        "tit": "南山区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [],
+                        "show": false
+                    },
+                    {
+                        "tit": "盐田区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [],
+                        "show": false
+                    },
+                    {
+                        "tit": "宝安区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [],
+                        "show": false
+                    },
+                    {
+                        "tit": "龙岗区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [],
+                        "show": false
+                    },
+                    {
+                        "tit": "龙华区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [],
+                        "show": false
+                    },
+                    {
+                        "tit": "坪山区",
+                        "status": true,
+                        "isLeaf": false,
+                        "lists": [
+                            {
+                                "tit": "坪山街道",
+                                "show": false,
+                                "isLeaf": false,
+                                "lists": [
+                                    {
+                                        "tit": "六合社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "六联社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "坪山社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "和平社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    }
+                                ]
+                            },
+                            {
+                                "tit": "坑梓街道",
+                                "show": false,
+                                "isLeaf": false,
+                                "lists": [
+                                    {
+                                        "tit": "金沙社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "秀新社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "坑梓社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "沙田社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    }
+                                ]
+                            },
+                            {
+                                "tit": "碧岭街道",
+                                "show": false,
+                                "isLeaf": false,
+                                "lists": [
+                                    {
+                                        "tit": "碧岭社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "杨坑社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "沙湖社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    }
+                                ]
+                            },
+                            {
+                                "tit": "马峦街道",
+                                "show": false,
+                                "isLeaf": false,
+                                "lists": [
+                                    {
+                                        "tit": "平环社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "马峦社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "江岭社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "沙坣社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    }
+                                ]
+                            },
+                            {
+                                "tit": "石井街道",
+                                "show": false,
+                                "isLeaf": false,
+                                "lists": [
+                                    {
+                                        "tit": "金龟社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "田头社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "石井社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "田心社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    }
+                                ]
+                            },
+                            {
+                                "tit": "龙田街道",
+                                "show": false,
+                                "isLeaf": false,
+                                "lists": [
+                                    {
+                                        "tit": "龙田社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "老坑社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "南布社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    },
+                                    {
+                                        "tit": "竹坑社区",
+                                        "show": false,
+                                        "isLeaf": true,
+                                        "lists": []
+                                    }
+                                ]
+                            }
+                        ],
+                        "show": false,
+                        "hastree": true
+                    },
+                    {
+                        "tit": "光明新区",
+                        "status": true,
+                        "lists": [],
+                        "isLeaf": false,
+                        "show": false
+                    },
+                    {
+                        "tit": "大鹏新区",
+                        "status": true,
+                        "lists": [],
+                        "isLeaf": false,
+                        "show": false
+                    }
+                ]
+            },
+            {
+                "class": "space",
+                "show": true,
+                "title": "空间信息",
+                "data": [
+                    {
+                        "tit": "基础信息",
+                        "status": false,
+                        "isLeaf": false,
+                        "lists": [
+                            {
+                                "tit": "路灯",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "树",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "建筑物",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "地面",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "变电箱",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "地形",
+                                "isLeaf": true,
+                                "show": true
+                            }
+                        ],
+                        "show": true
+                    },
+                    {
+                        "tit": "地下空间",
+                        "status": false,
+                        "isLeaf": false,
+                        "lists": [
+                            {
+                                "tit": "蓄水池",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "公告牌",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "红绿灯",
+                                "isLeaf": true,
+                                "show": true
+                            }
+                        ],
+                        "show": true
+                    },
+                    {
+                        "tit": "地表部件",
+                        "status": false,
+                        "isLeaf": false,
+                        "lists": [
+                            {
+                                "tit": "消防栓",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "摄像头",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "其他设施",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "基础网格",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "建筑物图标",
+                                "isLeaf": true,
+                                "show": true
+                            }
+                        ],
+                        "show": true
+                    },
+                    {
+                        "tit": "地下管线",
+                        "status": false,
+                        "isLeaf": false,
+                        "lists": [
+                            {
+                                "tit": "消防水管点",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "消防水管线",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "供电管点",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "供电管线",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "直饮水管点",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "直饮水管线",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "燃气管点",
+                                "isLeaf": true,
+                                "show": true
+                            },
+                            {
+                                "tit": "燃气管线",
+                                "isLeaf": true,
+                                "show": true
+                            }
+                        ],
+                        "show": true
+                    }
+                ]
+            },
+            {
+                "class": "dynamic",
+                "show": false,
+                "title": "动态信息"
+            },
+            {
+                "class": "public",
+                "show": false,
+                "title": "公共信息"
+            },
+            {
+                "class": "gover",
+                "show": false,
+                "title": "政务信息"
+            },
+            {
+                "class": "social",
+                "show": false,
+                "title": "社会信息"
+            }
+        ]
+    }
+}

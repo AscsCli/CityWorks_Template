@@ -2,22 +2,24 @@
     <div class="center-con">
         <div class="center-wrap">
             <div style="width:100%;">
-                <rk-tab :routers="routers" @changeTab="changeTab" v-model="activeLabel"></rk-tab>
+                <rk-tab :routers="getMapType === '2d' ? routers2d : routers3d" @changeTab="changeTab" v-model="activeLabel"></rk-tab>
             </div>
 
         </div>
         <div class="mapcont">
-            <baseMap :mapId="mapId" :initExtent="extent" :layerType="layerType" :mapType="mapType"
-                     :mapHeight="mapHeight" :mapWidth="mapWidth" :url="url" v-show="isShow"></baseMap>
-            <map3d v-show="!isShow"></map3d>
+            <h2 v-if="!get3dLoadTag && !get2dLoadTag">目前没有地图可显示</h2>
+            <baseMap v-if="get2dLoadTag" :mapId="mapId" :initExtent="extent" :layerType="layerType" :mapType="mapType"
+                     :mapHeight="mapHeight" :mapWidth="mapWidth" :url="url" v-show="getMapType === '2d'"></baseMap>
+            <map3d v-if="get3dLoadTag" :display="getMapType === '3d'"></map3d>
         </div>
     </div>
 </template>
 
 <script>
   import baseMap from "./baseMap2D.vue";
-  import map3d from './baseMap3D.vue'
-
+  import map3d from './baseMap3D.vue';
+  import {mapGetters} from 'vuex';
+  import {EventBus} from "../../eventBus/eventBus.js";
   export default {
     components: {
       baseMap,
@@ -37,24 +39,37 @@
         mapHeight: '100%',
         mapWidth: '100%',
         layerType: "",
-        
         defaultLink: 5,
         is3d: true,
-        activeLabel: '地理变化',
+        activeLabel: '测量工具',
         routers: [],
         routers2d: [],
         routers3d: [],
         isShow: false
       }
     },
-    computed: {},
+    computed: {
+      ...mapGetters({
+        get2dLoadTag: 'get2dLoadTag',
+        get3dLoadTag: 'get3dLoadTag',
+        getMapType: 'getMapType'
+      })
+    },
     methods: {
       changeTab(item) {
-        this.$router.push(item.router)
+        if(item.router){
+          this.$router.push(item.router);
+        }
+
+        if(this.getMapType === "2d"){
+          EventBus.bus.emit(EventBus.CENTER_TAB_2D, item);
+        }else if(this.getMapType === "3d"){
+          EventBus.bus.emit(EventBus.CENTER_TAB_3D, item);
+        }
       }
     },
     watch: {
-      is3d: function (val) {
+      getMapType: function (val) {
         if (val) {
           this.routers = this.routers3d;
         } else {

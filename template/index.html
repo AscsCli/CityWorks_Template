@@ -5,6 +5,7 @@
     <title>CityWorks™</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <script src="./static/config/env.js"></script>
     <script src="./static/config/url.js"></script>
 
@@ -12,10 +13,41 @@
     <link rel="bookmark" href="/static/images/favicon/favicon.ico" type="image/ico">
 </head>
 <body>
-    <div id="app"></div>
-</body>
-<script src="./static/config/projectConfig.js"></script>
 <script>
-  console.log("version : ", projectConfig.version);
+    //禁止Ctrl + 和Ctrl + 鼠标滚轮缩放
+    var isFirefox = /Firefox/i.test(navigator.userAgent) ? true : false;
+    var unMouseBtn = function (e) {
+        var e = e || window.event;
+        if (e.wheelDelta && e.ctrlKey) {//IE/Opera/Chrome e.wheelDelta±120
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        } else if (e.detail && e.ctrlKey) {//Firefox e.detail±3
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        }
+    };
+    var mousewheelevt = isFirefox ? "DOMMouseScroll" : "mousewheel";
+    if (document.attachEvent) {//IE/Opera/Chrome
+        document.attachEvent("on" + mousewheelevt, unMouseBtn);
+    } else if (document.addEventListener) {//Firefox
+        document.addEventListener(mousewheelevt, unMouseBtn, false);
+    }
+    var unCtrl = function (e) {
+        var e = e || window.event;
+        var isFirefox = (/Firefox/i.test(navigator.userAgent)) ? true : false;
+        var code = isFirefox ? "109,107,173,61" : "109,107,189,187";
+        if (e.ctrlKey && code.indexOf(e.keyCode) != -1) {
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        }
+    };
+    document.onkeydown = unCtrl;
+
 </script>
+<div id="app"></div>
+<script src="./static/jsLib/cm7.js"></script>
+<script src="./static/config/windowMap.js"></script>
+<script src="./static/config/2d/map2dConfig.js"></script>
+<script src="./static/config/3d/map3dLayers.js"></script>
+<script src="./static/config/3d/map3dConfig.js"></script>
+
+</body>
+
 </html>

@@ -7,8 +7,8 @@
 <script>
   import {baseMap_bussiness_ctrl} from "@cityworks/gismap3";
   import {loadScriptTool} from "@cityworks/gismap3";
-  import {headIconListen} from "./headIconListen.js"
-  import {leftListen} from './leftListen.js'
+  import {head2DIconListen} from "./head2DIconListen.js";
+  import {leftListen} from './leftListen.js';
   import {configLoadTool} from "@cityworks/gismap3";
 
 
@@ -52,13 +52,12 @@
             ymin: 0,
             xmax: 0,
             ymax: 0
-
           }
         }
       }
 
     },
-    mixins: [headIconListen,leftListen],
+    mixins: [head2DIconListen,leftListen],
     data() {
       return {}
     },
@@ -73,8 +72,8 @@
     mounted() {
       loadScriptTool.setDefault();
       //这里设置自定义的路径json路径
-      configLoadTool.layer2DPath = "../../../static/config/2d/testtuceng.json";
-      configLoadTool.load()
+      configLoadTool.layer2DPath = "../../../static/config/2d/testTuCeng.json";
+      configLoadTool.load();
       let config = {
         mapId: this.mapId,
         url: this.url,

@@ -1,8 +1,12 @@
 {
-    "version": "3.5.3",
-    "title": "福州时空信息公共服务平台",
-    "loadMap2d": false,
-    "loadMap3d": false
+    "version": "4.0.0",
+    "title": "时空信息公共服务平台",
+    "loadMap2d": true,
+    "loadMap3d": false,
+    "firstLoad": "3d",
+    "description": {
+        "firstLoad":"建议首选加载2d还是首选加载3d",
+        "loadMap2d":"是否加载二维地图",
+        "loadMap3d":"是否加载三维地图"
+    }
 }
-
-

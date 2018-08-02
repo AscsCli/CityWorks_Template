@@ -81,9 +81,11 @@
         this.$store.dispatch('closeMenu', false)
       },
       setMenuData(menuData){
-        this.menu = menuData;
-        this.menuTitle = menuData[0].title;
-        this.obj = menuData[0].data
+        if(menuData.length != 0 ){
+          this.menu = menuData;
+          this.menuTitle = menuData[0].title;
+          this.obj = menuData[0].data
+        }
       },
       getJson() {
         if(this.get2dLoadTag === true){

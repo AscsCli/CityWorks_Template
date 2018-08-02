@@ -2,7 +2,7 @@
     "version": "4.0.0",
     "title": "时空信息公共服务平台",
     "loadMap2d": true,
-    "loadMap3d": false,
+    "loadMap3d": true,
     "firstLoad": "3d",
     "description": {
         "firstLoad":"建议首选加载2d还是首选加载3d",

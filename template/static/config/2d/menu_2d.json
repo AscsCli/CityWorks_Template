@@ -6,6 +6,7 @@
             "show": true,
             "name": "新建图层",
             "title": "新建图层",
+            "showeyes":true,
             "showName": "新建图层",
             "data": [
                 {

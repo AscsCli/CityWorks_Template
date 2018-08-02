@@ -4,6 +4,7 @@
             "class": "icon-hangzhengquhua",
             "show": false,
             "title": "行政区划",
+            "showeyes":true,
             "data": [
                 {
                     "tit": "福州市",
@@ -17,6 +18,7 @@
         {
             "class": "icon-kongjianxinxi",
             "show": true,
+            "showeyes":true,
             "title": "空间信息",
             "data": [
                 {
@@ -289,6 +291,7 @@
         {
             "class": "icon-gonggongxinxi",
             "show": false,
+            "showeyes":true,
             "title": "管线信息",
             "data": [
                 {

@@ -1,0 +1,21 @@
+.mes_gl {
+  margin: 0.3rem 0.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 0.3rem;
+  }
+  .mes_name {
+    margin-left: 0.1rem;
+  }
+}
+.button_wrap {
+  margin: 0.2rem 0 0 0.32rem;
+  font-size: .2rem;
+}
+.button_wrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}

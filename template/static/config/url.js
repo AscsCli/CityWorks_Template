@@ -36,10 +36,17 @@ var API = {
       method: "get",
       properties: [],
     },
-    getCenterTab:{
+    getCenterTab2d:{
       isMock: false,
-      description: "获取Center的Tab列表",
-      path: "./static/config/centerTab.json",
+      description: "获取Center的Tab2d列表",
+      path: "./static/config/2d/centerTab2d.json",
+      method: "get",
+      properties: [],
+    },
+    getCenterTab3d:{
+      isMock: false,
+      description: "获取Center的Tab3d列表",
+      path: "./static/config/3d/centerTab3d.json",
       method: "get",
       properties: [],
     },

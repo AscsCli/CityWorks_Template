@@ -1,0 +1,14 @@
+{
+    "map2dConfig":{
+        "mapId":"test",
+        "mapHeight":"100%",
+        "mapWidth":"100%",
+        "layerType":"",
+        "view":"mapView",
+        "mapType":"tiled",
+        "url":"http://10.10.120.2:6080/arcgis/rest/services/pingshan/ImageServer",
+        "extent":{
+
+        }
+    }
+}

@@ -6,13 +6,13 @@ const leftMenu = {
     showDetail: state => state.showDetail,
   },
   mutations: {
-    SET_SHOW_DETAIL: (state, showDeatil) => {
-      state.showDeatil = showDeatil
+    SET_SHOW_DETAIL: (state, val) => {
+      state.showDetail = val
     }
   },
   actions: {
-    closeMenu({ commit }, showDeatil) {
-      commit('SET_SHOW_DETAIL', showDeatil)
+    closeMenu({ commit }, val) {
+      commit('SET_SHOW_DETAIL', val)
     }
   }
 }

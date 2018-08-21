@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "name":"toolBar2d",
+            "url":"./static/config/2d/toolBar2d.json"
+        },
+        {
+            "name":"centerTab2d",
+            "url":"./static/config/2d/centerTab2d.json"
+        },
+        {
+            "name":"toolBar3d",
+            "url":"./static/config/3d/toolBar3d.json"
+        },
+        {
+            "name":"centerTab3d",
+            "url":"./static/config/3d/centerTab3d.json"
+        }
+    ]
+}

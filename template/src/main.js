@@ -3,33 +3,40 @@
 import {setREM} from './plugin/setREM';
 import "./api/mock/mock";
 
+
 import 'babel-polyfill';
 import Vue from 'vue';
-import router from './router';
+import setRoute from './router';
 import store from './store/index';
 
-import Rocket from '@cityworks/rocket-ui';
-import '@cityworks/rocket-ui/rocket-theme/index.css';
+import Rocket from '@cityworks/rocket-ui-test';
+import '@cityworks/rocket-ui-test/rocket-theme/index.css';
 import "./style/index.scss";
 
 Vue.use(Rocket);
 Vue.config.productionTip = false;
-
-import {ApiFactor} from "./api/api-factor";
-const baseUrl = API.baseUrl;
-const apiConfs = API.apiList;
-
-window.$apis = ApiFactor(baseUrl,apiConfs);
-
 //REM计算
 setREM.init();
 
+import {ApiFactor} from "./api/api-factor";
+
+const baseUrl = API.baseUrl;
+const apiConfs = API.apiList;
+window.$apis = ApiFactor(baseUrl, apiConfs);
+
 import App from './App.vue';
+import {loadConfig} from "./plugin/loadConfig";
 
-var vm = new Vue({
-  el: '#app',
-  router,
-  store,
-  render:h => h(App)
-});
+async function initApp() {
+  let router = await setRoute();
+  await loadConfig.init();
+  const vm = new Vue({
+    el: '#app',
+    router,
+    store,
+    render: h => h(App)
+  });
+}
 
+
+initApp();

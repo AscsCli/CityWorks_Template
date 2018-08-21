@@ -150,6 +150,19 @@ npm install
 
 在centerTabConfig.json中，配置Tab标签，以及路由。
 
+
+```
+{
+     "class": "celiang",
+     "title": "测量",
+     "type": "route",
+     "url":"./pages/rightRouter/measure/measure.vue",
+     "route": "/home/measure"
+},
+
+```
+
+
 在`business\center`文件夹中，处理全局的业务逻辑。
 在`business\leftMenu`文件夹中，处理左侧餐单栏的逻辑。
 

@@ -1,0 +1,45 @@
+{
+    "map3dConfig": {
+        "multiTouch": false,
+        "mapBaseConfig": {
+            "maxVisibleDistance": 3000,
+            "minVisibleDistance": 15,
+            "minVisiblePixels": 20,
+            "type": "citymaker"
+        },
+        "skyboxnode": {
+            "path": "/static/images/setSkyNode/",
+            "backImage": "04_BK.jpg",
+            "bottomImage": "04_DN.jpg",
+            "frontImage": "04_FR.jpg",
+            "leftImage": "04_LF.jpg",
+            "rightImage": "04_RT.jpg",
+            "topImage": "04_UP.jpg",
+            "darkImage": "04_DN_01.jpg"
+        },
+        "license": {
+            "protocal": "",
+            "host": "",
+            "port": ":80",
+            "licenseHost": "",
+            "path": "F:\\key\\2954817621329660231538164916642_131623743702686993.lic"
+        },
+        "initPosition": {
+            "layerHandle": "buildingA05JZ019"
+        },
+        "fullScreenButton": {
+            "isVisible": true,
+            "id": "退出全屏",
+            "rect": [
+                0, 10, 0, 10, 0, 42, 0, 42
+            ],
+            "name": "退出全屏",
+            "normalImage": "http://localhost:8080/static/images/system/quitFullScreen.png",
+            "hoverImage": "http://localhost:8080/static/images/system/quitFullScreen.png",
+            "pushedImage": "http://localhost:8080/static/images/system/quitFullScreen.png",
+            "toolTipText": "退出全屏"
+        }
+    }
+}
+
+

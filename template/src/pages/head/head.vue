@@ -74,13 +74,13 @@
     },
     beforeCreate() {
       window.$apis.getToolBar2d().then(val => {
-        this.arcGisIcons = val.data.toolBar2d;
+        this.arcGisIcons = val.data.data;
         if(this.getMapType === '2d' && !this.get3dLoadTag){
           this.arcGisIcons.shift();
         }
       });
       window.$apis.getToolBar3d().then(val => {
-        this.cwIcons = val.data.toolBars3d;
+        this.cwIcons = val.data.data;
         if(this.getMapType === '3d' && !this.get2dLoadTag){
           this.cwIcons.shift();
         }

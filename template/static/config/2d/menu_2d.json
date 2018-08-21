@@ -5,8 +5,9 @@
             "isLeaf": false,
             "show": true,
             "name": "新建图层",
-            "title": "新建图层",
             "showeyes":true,
+
+            "title": "新建图层",
             "showName": "新建图层",
             "data": [
                 {

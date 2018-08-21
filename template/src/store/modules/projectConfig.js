@@ -1,9 +1,10 @@
+import  *  as types from '../mutations-type'
 const projectConfig = {
   state: {
     title:"",
-    mapType: "2d",
-    loadMap2d: false,
-    loadMap3d: false,
+    mapType: "",
+    loadMap2d: true,
+    loadMap3d: true,
   },
   getters: {
     getTitle: state => {
@@ -20,32 +21,32 @@ const projectConfig = {
     }
   },
   mutations: {
-    SET_APP_TITLE: (state,val) => {
+    [types.SET_APP_TITLE]: (state,val) => {
       state.title = val;
     },
-    SET_MAP_TYPE: (state, val) => {
+    [types.SET_MAP_TYPE]: (state, val) => {
       state.mapType = val;
     },
-    SET_2DMAP_STATUS: (state, val) => {
+    [types.SET_2DMAP_STATUS]: (state, val) => {
       state.loadMap2d = val;
     },
-    SET_3DMAP_STATUS: (state, val) => {
+    [types.SET_3DMAP_STATUS]: (state, val) => {
       state.loadMap3d = val;
     },
   },
   actions: {
     setAppTitle({commit}, val) {
-      commit('SET_APP_TITLE', val)
+      commit(types.SET_APP_TITLE, val)
     },
     setMapType({commit}, val) {
-      commit('SET_MAP_TYPE', val)
+      commit(types.SET_MAP_TYPE, val)
     },
     set2DMapStatus({commit},val){
-      commit('SET_2DMAP_STATUS' , val);
+      commit(types.SET_2DMAP_STATUS , val);
     },
     set3DMapStatus({commit},val){
-      commit('SET_3DMAP_STATUS' , val);
-    }
+      commit(types.SET_3DMAP_STATUS , val);
+    },
   }
 };
 

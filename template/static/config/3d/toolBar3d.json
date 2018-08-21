@@ -1,5 +1,5 @@
 {
-    "toolBars3d": [
+    "data": [
         {
             "class": "d1",
             "title": "转换成2D",
@@ -39,7 +39,8 @@
             "class": "celiang",
             "title": "测量",
             "type": "route",
-            "path": "/home/measure"
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
         },
         {
             "class": "xiangpica",

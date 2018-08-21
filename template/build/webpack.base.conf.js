@@ -16,8 +16,11 @@ const createLintingRule = () => ({
   options: {
     formatter: require('eslint-friendly-formatter'),
     emitWarning: !config.dev.showEslintErrorsInOverlay
+  },
+  externals: {//不打包的
+    'echarts': 'echarts'
   }
-})
+});
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
@@ -36,6 +39,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      '@eventBus': resolve('src/eventBus'),
     }
   },
   module: {
@@ -49,7 +53,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
+        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client'),resolve('node_modules/@cityworks/cw3d-cm')]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

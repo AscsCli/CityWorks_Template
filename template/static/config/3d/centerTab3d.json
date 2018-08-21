@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "name": "拉膜",
+            "type": "route",
+            "powerCode": "DILI",
+            "active": true,
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        },
+        {
+            "name": "人房互查",
+            "type": "route",
+            "powerCode": "CELIANG",
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        },
+        {
+            "name": "点击查询",
+            "type": "route",
+            "powerCode": "CELIANG",
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        },
+        {
+            "name": "重点建筑",
+            "type": "route",
+            "powerCode": "CELIANG",
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        },
+        {
+            "name": "空气监测",
+            "type": "route",
+            "powerCode": "CELIANG",
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        }
+    ]
+}

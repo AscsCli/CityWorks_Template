@@ -1,5 +1,3 @@
-import { cw } from '../../../../assets/js/cw3.js';
-
 export const actions = {};
 
 var config = {
@@ -28,15 +26,4 @@ var config = {
         "唱响天地KTV":"4403070090151100035",
         "启沛实业有限公司":"4403070090151400007"
     },
-}
-/**
-*重点建筑-飞向建筑物
-*/
-actions.flyToBuilding = function (building) {
-	var rule = {
-		name:'建筑物编码',
-		id:config.map[building]
-	}
-	cw.tools.flyToObject(rule);
-    cw.createTips(building, building, null, null);
 };

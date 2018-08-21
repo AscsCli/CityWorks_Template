@@ -18,9 +18,13 @@ EventBus.HEAD_ICON_2D = "HEAD_ICON_2D";
 EventBus.LEFT_FIRSTC = "LEFT_FIRSTC";
 
 /**
- * 左侧第二列详细列表事件
+ * 左侧第二列,2D详细列表事件
  */
-EventBus.LEFT_DETAIL = "LEFT_DETAIL";
+EventBus.LEFT_DETAIL_2D = "LEFT_DETAIL_2D";
+/**
+ * 左侧第二列,3D详细列表事件
+ */
+EventBus.LEFT_DETAIL_3D = "LEFT_DETAIL_3D";
 
 /**
  * 中间tab栏点击2D功能模块

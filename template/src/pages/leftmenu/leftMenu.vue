@@ -44,11 +44,11 @@
         get3dLoadTag: 'get3dLoadTag',
       })
     },
-    watch:{
-      'getMapType':function (val) {
-        if(val === '2d'){
+    watch: {
+      'getMapType': function (val) {
+        if (val === '2d') {
           this.setMenuData(this.menu2D);
-        }else if(val === '3d'){
+        } else if (val === '3d') {
           this.setMenuData(this.menu3D);
         }
       }
@@ -56,11 +56,20 @@
     methods: {
       itemClick(item) {
         if (this.show === false) {
-          EventBus.bus.emit("LEFT_DETAIL", item)
+          if (this.getMapType === "3d") {
+            EventBus.bus.emit("LEFT_DETAIL_3D", item)
+          } else if (this.getMapType === '2d') {
+            EventBus.bus.emit("LEFT_DETAIL_2D", item)
+          }
         }
       },
       eyeClick(item) {
-        EventBus.bus.emit("LEFT_DETAIL", item)
+        if (this.getMapType === "3d") {
+          EventBus.bus.emit("LEFT_DETAIL_3D", item)
+        } else if (this.getMapType === '2d') {
+          EventBus.bus.emit("LEFT_DETAIL_2D", item)
+        }
+
       },
       setActive(index, item) {
         //收起动画效果
@@ -80,28 +89,29 @@
       toggle() {
         this.$store.dispatch('closeMenu', false)
       },
-      setMenuData(menuData){
-        if(menuData.length != 0 ){
+      setMenuData(menuData) {
+        if (menuData.length != 0) {
           this.menu = menuData;
           this.menuTitle = menuData[0].title;
           this.obj = menuData[0].data
         }
       },
       getJson() {
-        if(this.get2dLoadTag === true){
+        console.log(this.get2dLoadTag, this.get3dLoadTag);
+        if (this.get2dLoadTag === true) {
           window.$apis.getMenu2d().then(res => {
             let data = res.data.menu;
             this.menu2D = data;
-            if(this.getMapType === '2d'){
+            if (this.getMapType === '2d') {
               this.setMenuData(this.menu2D);
             }
           });
         }
-        if(this.get3dLoadTag  === true){
+        if (this.get3dLoadTag === true) {
           window.$apis.getMenu3d().then(res => {
             let data = res.data.menu;
             this.menu3D = data;
-            if(this.getMapType === '3d'){
+            if (this.getMapType === '3d') {
               this.setMenuData(this.menu3D);
             }
           });
@@ -109,10 +119,7 @@
       }
     },
     mounted() {
-      window.onload = () => {
-        this.getJson();
-      };
-
+      this.getJson();
     }
   }
 </script>

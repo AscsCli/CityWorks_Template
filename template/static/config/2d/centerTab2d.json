@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "地理变化1",
+            "type": "route",
+            "powerCode": "DILI",
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        },
+        {
+            "name": "影像对比1",
+            "type": "route",
+            "powerCode": "YINGXIANG",
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        },
+        {
+            "name": "测量工具1",
+            "type": "route",
+            "powerCode": "CELIANG",
+            "url":"./pages/rightRouter/measure/measure.vue",
+            "route": "/home/measure"
+        }
+    ]
+}

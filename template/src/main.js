@@ -9,8 +9,8 @@ import Vue from 'vue';
 import setRoute from './router';
 import store from './store/index';
 
-import Rocket from '@cityworks/rocket-ui-test';
-import '@cityworks/rocket-ui-test/rocket-theme/index.css';
+import Rocket from '@cityworks/rocket-ui';
+import '@cityworks/rocket-ui/rocket-theme/index.css';
 import "./style/index.scss";
 
 Vue.use(Rocket);

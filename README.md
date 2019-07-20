@@ -4,7 +4,7 @@
 
 > 该模板兼容 Vue2.0 . 对于 Vue1.x，执行命令：`vue init AscsCli/Vue-citywork-template my-project`
 
-英文文档 : [English Doc](https://github.com/Brickies/vue-template/blob/master/README_en-US.md)
+
 
 ## 用法
 
